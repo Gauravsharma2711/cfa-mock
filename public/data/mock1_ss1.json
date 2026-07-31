@@ -1,0 +1,1082 @@
+[
+  {
+    "id": 1,
+    "category": "Ethical and Professional Standards",
+    "question": "Joy Nash, CFA, resides in Country 1, where applicable law is less strict than the Standards. Nash does business in Country 2, where applicable law is less strict than in Country 1. According to the Standards, when doing business in Country 2, Nash must follow:",
+    "options": {
+      "A": "the Code and Standards.",
+      "B": "applicable law of Country 1.",
+      "C": "applicable law of Country 2."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 2,
+    "category": "Ethical and Professional Standards",
+    "question": "Which of the following situations most likely helps to explain why the GIPS standards were created?",
+    "options": {
+      "A": "Firms were including only top performing funds to represent their performance history.",
+      "B": "Asset managers were including the performance of all portfolios, including those no longer managed in their performance history.",
+      "C": "Consistency among fund managers were needed when making investment performance presentations."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 3,
+    "category": "Ethical and Professional Standards",
+    "question": "Daniel Morgan is a Level Ill candidate in the CFA Program. After taking the exam, Morgan signs into a CFA-candidate-only Internet forum and writes a post expressing the opinion that the CFA Program and examination policies are unfair. Has Morgan most likely violated the Standards?",
+    "options": {
+      "A": "No.",
+      "B": "Yes, by providing confidential program information.",
+      "C": "Yes, by compromising the reputation of CFA Institute."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 4,
+    "category": "Ethical and Professional Standards",
+    "question": "Which of the following should a GIPS-compliant firm most likely provide to each prospective client?",
+    "options": {
+      "A": "A list of composite descriptions upon request",
+      "B": "A copy of the GIPS standards",
+      "C": "A compliant presentation every six months"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 5,
+    "category": "Ethical and Professional Standards",
+    "question": "Which of the following is permitted according to the Standards? A member:",
+    "options": {
+      "A": "exploits market inefficiencies for personal trades.",
+      "B": "disseminates information to give the impression of increased liquidity of an asset.",
+      "C": "secures a dominant position in an underlying asset to control the price of its derivative."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 6,
+    "category": "Ethical and Professional Standards",
+    "question": "Ashley Brown, CFA, applies for a new job. In her application letter, she states, \"As a CFA charterholder, I provide the best value in trade execution.\" Further, she states, \"I passed all three CFA Program examinations in three consecutive years.\" Has Brown violated the Standards?",
+    "options": {
+      "A": "No",
+      "B": "Yes, by stating, \"As a CFA charterholder, I provide the best value in trade execution\"",
+      "C": "Yes, by stating, \"As a CFA charterholder, I provide the best value in trade execution\" and by stating, \"I passed all three CFA Program examinations in three consecutive years\""
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 7,
+    "category": "Ethical and Professional Standards",
+    "question": "Yip Wai Yin, a CFA candidate, is an independent mutual fund sales agent. For every front-end load product she promotes, Yip receives a portion of the front-end fee as commission at the time of sale. For every back-end load fund she sells, Yip receives a smaller commission paid at the end of the year. Yip always informs her clients that she is paid a commission as an agent, but does not provide details of the compensation structure. When pitching her favored front-end load product line she tells clients 20% of her commission is always invested in the same fund as proof of her confidence in the fund she recommends. Which Standard does Yip least likely violate?",
+    "options": {
+      "A": "Referral Fees",
+      "B": "Priority of Transactions",
+      "C": "Avoid or Disclose Conflicts"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 8,
+    "category": "Ethical and Professional Standards",
+    "question": "After a firm presents a minimum required number of years of GIPS-compliant performance, the firm must present an additional year of performance each year, building up to a minimum of:",
+    "options": {
+      "A": "5 years of GIPS-compliant performance.",
+      "B": "10 years of GIPS-compliant performance.",
+      "C": "15 years of GIPS-compliant performance."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 9,
+    "category": "Ethical and Professional Standards",
+    "question": "Which of the following is a violation according to the Standard relating to preservation of confidentiality?",
+    "options": {
+      "A": "Members share details relating to former clients with third party service providers",
+      "B": "Members convey to clients that not all firm-sponsored resources may be appropriate for communicating confidential information",
+      "C": "When allowed under the law, members share confidential client information to defend themselves in an investigation by the CFA Institute Professional Conduct Program"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 10,
+    "category": "Ethical and Professional Standards",
+    "question": "Which of the following is a recommended procedure for compliance with the standard relating to responsibilities of supervisors? Once a violation in the form of wrongdoing from an employee is discovered, a supervisor should do which of the following?",
+    "options": {
+      "A": "Avoid increasing supervision of the wrongdoer until the investigation is concluded",
+      "B": "Place appropriate limitations on the wrongdoer pending the outcome of the investigation",
+      "C": "Rely on an employee's statement about the extent of a violation of the law if the employee gives written assurance that the wrongdoing will not reoccur"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 11,
+    "category": "Ethical and Professional Standards",
+    "question": "Dimitri Kuznetsov, CFA, is a portfolio manager and holds shares of Barnikoff Limited and Matric Ventures in all client portfolios. Both companies have upcoming annual general meetings scheduled for the same day. The management of Barnikoff proposes to change its financial year-end from September to December, while Matric Ventures proposes to enter into a high-risk venture. The proxy voting policy clause in all client investment management agreements managed by Kuznetsov states, \"When voting proxies provides a cost benefit to the client, the manager must vote a proxy.\" With regard to the proxy votes for Matric and Barnikoff, Kuznetsov would least likely violate CFA Institute Standard III(A)-Loyalty, Prudence, and Care if he votes:",
+    "options": {
+      "A": "with management.",
+      "B": "only the Matric proxy.",
+      "C": "only the Barnikoff proxy."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 12,
+    "category": "Ethical and Professional Standards",
+    "question": "Umi Grabbo, CFA, is a highly regarded portfolio manager for Atlantic Advisors, a mid-sized mutual fund firm investing in domestic securities. She has watched the hedge fund boom and on numerous occasions suggested that her firm create such a fund. Senior management has refused to commit resources to hedge funds. Attracted by potential higher fees associated with hedge funds, Grabbo and several other employees begin development of their own hedge fund to invest in international securities. Grabbo and her colleagues are careful to work on the fund development only on their own time. Because Atlantic management thinks hedge funds are a fad, she does not inform her supervisor about the hedge fund creation. According to the Standards of Practice Handbook, Grabbo should most likely address which of the Standards immediately?",
+    "options": {
+      "A": "Priority of transactions",
+      "B": "Avoid or disclose conflicts",
+      "C": "Additional compensation arrangements"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 13,
+    "category": "Ethical and Professional Standards",
+    "question": "Which of the following member actions violates the Standard relating to misconduct? ○ Action 1: Declaring personal bankruptcy because of a large loss from investing in a startup company. ○ Action 2: Allocating for her personal account shares from an oversubscribed IPO that is suitable for her firm's clients.",
+    "options": {
+      "A": "Action 1 only",
+      "B": "Action 2 only",
+      "C": "Both Action 1 and Action 2"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 14,
+    "category": "Ethical and Professional Standards",
+    "question": "According to the Standards, a member who manages an index fund is:",
+    "options": {
+      "A": "only required to invest in a manner consistent with the fund's stated mandate.",
+      "B": "only required to determine the suitability of the fund for those who invest in the fund.",
+      "C": "both required to invest in a manner consistent with the fund's stated mandate and to determine the suitability of the fund for those who invest in the fund."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 15,
+    "category": "Ethical and Professional Standards",
+    "question": "Which of the following is not among the recommended procedures for compliance with the Standard relating to performance presentation?",
+    "options": {
+      "A": "Excluding terminated accounts as part of the performance history",
+      "B": "Presenting performance of the weighted composite of similar portfolios",
+      "C": "Considering the sophistication of the audience to whom a performance presentation is addressed"
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 16,
+    "category": "Ethical and Professional Standards",
+    "question": "Holly Baker, CFA is explaining CFA Institute Code of Ethics to a client. Which of the following statements could Baker make to most likely reflect disciplinary sanctions the CFA Institute may impose? Sanctions include:",
+    "options": {
+      "A": "fines for violations.",
+      "B": "revocation of membership.",
+      "C": "banishment from the industry."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 17,
+    "category": "Ethical and Professional Standards",
+    "question": "Lawrence Hall, CFA, and Nancy Bishop, CFA, began a joint research report on Stamper Corporation. Bishop visited Stamper's corporate headquarters for several days and met with all company officers. Prior to the completion of the report, Bishop was reassigned to another project. Hall utilized his and Bishop's research to write the report but did not include Bishop's name on the report because he did not agree with and changed Bishop's conclusion included in the final report. According to the CFA Institute Standards of Practice Handbook, did Hall most likely violate any CFA Institute Standards of Professional Conduct?",
+    "options": {
+      "A": "No",
+      "B": "Yes, with respect to misrepresentation",
+      "C": "Yes, with respect to diligence and reasonable basis"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 18,
+    "category": "Ethical and Professional Standards",
+    "question": "According to the Standard relating to referral fees, members should disclose to employers the amount and nature of compensation received at least:",
+    "options": {
+      "A": "monthly.",
+      "B": "quarterly.",
+      "C": "annually."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Ethical and Professional Standards for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 19,
+    "category": "Quantitative Methods",
+    "question": "In the absence of regulatory guidance, CFA Institute recommends that members maintain their investment research records for at least:",
+    "options": {
+      "A": "3 years.",
+      "B": "5 years.",
+      "C": "7 years."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Quantitative Methods for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 20,
+    "category": "Quantitative Methods",
+    "question": "Dennis Chung, CFA, manages an equity fund for his firm's clients. Chung does comprehensive analysis and concludes that Advance Technology Company (ATC) could announce a substantial stock repurchase program. Chung informs his clients about the analysis by phone, and states \"ATC is scheduled to announce a substantial stock repurchase program and its stock price will increase significantly.\" Chung has violated the Standard(s) relating to:",
+    "options": {
+      "A": "misrepresentation only.",
+      "B": "communication with clients and prospective clients only.",
+      "C": "misrepresentation as well as communication with clients and prospective clients."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Quantitative Methods for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 21,
+    "category": "Quantitative Methods",
+    "question": "Which of the following member actions most likely violates the Standard relating to fair dealing?",
+    "options": {
+      "A": "Providing premium service levels to clients who pay higher fees",
+      "B": "Selectively offering different service levels to prospective clients",
+      "C": "Using different communication methods to recommend investments to clients"
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Quantitative Methods for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 22,
+    "category": "Quantitative Methods",
+    "question": "Zhao Xuan, CFA, is a sell side investment analyst. While at a software industry conference, Zhao hears rumors that Green Run Software may have falsified its financial results. When she returns to her office, Zhao conducts a thorough analysis of Green Run. Based on her research, including discussions with some of Green Run's customers, Zhao is convinced that Green Run's reported 50% increase in net income during recent quarters is completely fictitious. So far, however, Zhao is the only analyst suspicious about Green Run's reported earnings. According to the CFA Institute Code of Ethics and Standards of Professional Conduct, the least appropriate action for Zhao is to:",
+    "options": {
+      "A": "report her suspicions to Green Run's management.",
+      "B": "do nothing until other analysts support her analysis.",
+      "C": "recommend that her clients sell their Green Run shares immediately."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Quantitative Methods for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 23,
+    "category": "Quantitative Methods",
+    "question": "According to the GIPS standards, a verification report confirms all of the following except whether:",
+    "options": {
+      "A": "specific composite presentations are accurate.",
+      "B": "a firm has complied with all firm-wide composite construction requirements.",
+      "C": "processes and procedures are designed to calculate and present performance results in compliance with the GIPS standards."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Quantitative Methods for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 24,
+    "category": "Quantitative Methods",
+    "question": "Shruti Kurup, CFA, is preparing to leave her firm and join a new employer. Prior to leaving the firm, Kurup calls all her clients informing them of her decision to leave. When asked by the clients, Kurup states lack of confidence in the firm's leadership as the reason for her departure and also mentions that more employees are likely to leave soon. Kurup has violated the Standard(s) relating:",
+    "options": {
+      "A": "only to loyalty.",
+      "B": "only to communication with clients and prospective clients.",
+      "C": "both to loyalty and to communication with clients and prospective clients only."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Quantitative Methods for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 25,
+    "category": "Quantitative Methods",
+    "question": "Anjuman Khan, CFA, manages the portfolios of several clients. One client offers Khan monetary compensation and another client gives her two tickets to a sold-out football match in appreciation of significantly beating their portfolio benchmarks. Khan accepts both the monetary compensation and the tickets to the football match. She discloses only the monetary compensation to her supervisor by text over the holiday weekend. Has Khan violated the Standard relating to independence and objectivity?",
+    "options": {
+      "A": "No",
+      "B": "Yes, because she failed to notify her supervisor of her acceptance of the tickets to the football match",
+      "C": "Yes, because she failed to get prior approval from her supervisor for accepting the monetary compensation"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Quantitative Methods for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 26,
+    "category": "Quantitative Methods",
+    "question": "According to the recommended procedures for compliance with the Standard relating to additional compensation arrangements, a member should make an immediate written report specifying any proposed compensation arrangements to: ● her supervisor only. ● her firm's compliance officer only. ● both to her supervisor and to her firm's compliance officer.",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": ""
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Quantitative Methods for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 27,
+    "category": "Quantitative Methods",
+    "question": "Brian Chan, CFA, is the CEO of Wholecare Pharmaceutical (WPC). WPC is in its final stages of clinical trials for developing a medicine for treating heart disease. Chan posts on social media that WPC is launching a new medicine for heart disease, knowing that the news will have a positive impact on WPC's stock price. Chan has violated the Standard(s) relating:",
+    "options": {
+      "A": "only to misrepresentation.",
+      "B": "only to market manipulation.",
+      "C": "both to misrepresentation and to market manipulation."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Quantitative Methods for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 28,
+    "category": "Quantitative Methods",
+    "question": "Which of the following risk premiums compensates investors for the risk of loss relative to an investment's fair value if the investment needs to be converted to cash quickly?",
+    "options": {
+      "A": "Liquidity premium",
+      "B": "Inflation premium",
+      "C": "Maturity premium"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Quantitative Methods for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 29,
+    "category": "Quantitative Methods",
+    "question": "Which of the following is most likely to signal manipulation of financial reporting for a large, diversified company?",
+    "options": {
+      "A": "A history of large expense items classified as unusual",
+      "B": "Operating margins out of line with other diversified companies",
+      "C": "Changes in accounting policies to reflect new accounting standards"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Quantitative Methods for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 30,
+    "category": "Quantitative Methods",
+    "question": "Based only on this information, average total liabilities are:",
+    "options": {
+      "A": "€200,000.",
+      "B": "€300,000.",
+      "C": "€400,000."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Quantitative Methods for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 31,
+    "category": "Quantitative Methods",
+    "question": "Which of the following stakeholders in a mature company would most likely tolerate higher risks in return for higher return potential?",
+    "options": {
+      "A": "Debtholders",
+      "B": "Shareholders",
+      "C": "Independent directors"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Quantitative Methods for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 32,
+    "category": "Quantitative Methods",
+    "question": "The term Big Data refers to:",
+    "options": {
+      "A": "structured data only.",
+      "B": "unstructured data only.",
+      "C": "both structured and unstructured data."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Quantitative Methods for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 33,
+    "category": "Quantitative Methods",
+    "question": "Which of the following is most likely a motivation for leasing long term rather than purchasing a high-value asset?",
+    "options": {
+      "A": "Reduced exposure to obsolescence risk",
+      "B": "Not having to recognize an asset on the balance sheet",
+      "C": "Not having to recognize a liability on the balance sheet"
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Quantitative Methods for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 34,
+    "category": "Quantitative Methods",
+    "question": "All else being equal, the firm will most likely:",
+    "options": {
+      "A": "operate in the long-run.",
+      "B": "exit the market in the short-run.",
+      "C": "operate in the short-run and exit the market in the long-run."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Quantitative Methods for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 35,
+    "category": "Economics",
+    "question": "Which of the following is most likely a drag on a company's liquidity position?",
+    "options": {
+      "A": "Reduced credit lines",
+      "B": "Uncollected receivables",
+      "C": "Early payment to suppliers"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Economics for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 36,
+    "category": "Economics",
+    "question": "The bootstrap resampling method:",
+    "options": {
+      "A": "guarantees that all items will appear in the resamples.",
+      "B": "relies on an analytical formula to estimate the distribution of the estimators.",
+      "C": "mimics the random sampling process by treating the randomly drawn sample as if it were the population."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Economics for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 37,
+    "category": "Economics",
+    "question": "Which of the following companies would most likely have the highest level of information asymmetry between managers and shareholders? Companies:",
+    "options": {
+      "A": "selling simple products",
+      "B": "operating in multiple markets and geographies",
+      "C": "with higher levels of institutional ownership and free float"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Economics for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 38,
+    "category": "Economics",
+    "question": "At a 99% confidence level, the analyst should reject the null hypothesis that:",
+    "options": {
+      "A": "the intercept is zero.",
+      "B": "the slope is less than or equal to 0.75.",
+      "C": "there is no linear relationship between the country's inflation rate and short-term interest rate."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Economics for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 39,
+    "category": "Economics",
+    "question": "If monetary policy is expansionary, the central bank's inflation target is:",
+    "options": {
+      "A": "less than 1.0%.",
+      "B": "equal to 1.0%.",
+      "C": "greater than 1.0%."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Economics for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 40,
+    "category": "Economics",
+    "question": "Which category of financial ratios is most likely used to measure how efficiently a company performs day-to-day tasks?",
+    "options": {
+      "A": "Activity",
+      "B": "Liquidity",
+      "C": "Solvency"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Economics for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 41,
+    "category": "Economics",
+    "question": "Deferred tax assets could arise when:",
+    "options": {
+      "A": "an asset's tax base exceeds its carrying amount.",
+      "B": "an asset's carrying amount exceeds its tax base.",
+      "C": "taxes recognized on the income statement exceed income taxes payable."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Economics for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 42,
+    "category": "Economics",
+    "question": "A positively skewed unimodal distribution of returns most likely has:",
+    "options": {
+      "A": "a long tail on the left side.",
+      "B": "a mode that is less than its mean.",
+      "C": "frequent small gains and a few extreme losses."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Economics for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 43,
+    "category": "Economics",
+    "question": "Sampling error is the difference between the observed value of a statistic and the:",
+    "options": {
+      "A": "mean of the sample.",
+      "B": "quantity it is intended to estimate.",
+      "C": "observed value of the random variable."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Economics for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 44,
+    "category": "Economics",
+    "question": "A sign of expansionary fiscal policy is a(n):",
+    "options": {
+      "A": "increase in indirect taxes.",
+      "B": "increase in the budget deficit.",
+      "C": "reduction in reserve requirements for banks."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Economics for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 45,
+    "category": "Economics",
+    "question": "The redistribution of income and wealth is most directly associated with:",
+    "options": {
+      "A": "fiscal policy only.",
+      "B": "monetary policy only.",
+      "C": "both fiscal policy and monetary policy."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Economics for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 46,
+    "category": "Economics",
+    "question": "Under the revaluation model, an initial revaluation that increases the carrying value of an asset most likely results in a:",
+    "options": {
+      "A": "higher net profit margin.",
+      "B": "lower financial leverage ratio.",
+      "C": "higher total asset turnover ratio."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Economics for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 47,
+    "category": "Financial Statement Analysis",
+    "question": "If a 2-for-1 stock split occurred on 1 July, basic earnings per share for the fiscal year is closest to:",
+    "options": {
+      "A": "$0.91.",
+      "B": "$1.30.",
+      "C": "$1.73."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 48,
+    "category": "Financial Statement Analysis",
+    "question": "If the average weekly hours worked in manufacturing decrease and unit labor costs remain the same, this most likely indicates future economic:",
+    "options": {
+      "A": "decline.",
+      "B": "stability.",
+      "C": "growth."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 49,
+    "category": "Financial Statement Analysis",
+    "question": "The role of lender of last resort in an economy is most likely fulfilled by the:",
+    "options": {
+      "A": "government.",
+      "B": "central bank.",
+      "C": "banking system."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 50,
+    "category": "Financial Statement Analysis",
+    "question": "The 180-day EUR/USD forward exchange rate is closest to:",
+    "options": {
+      "A": "0.98662.",
+      "B": "0.98858.",
+      "C": "0.98956."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 51,
+    "category": "Financial Statement Analysis",
+    "question": "Costs are an appropriate measure of progress toward completion. The construction company has only limited experience with similar contracts and knows that many factors outside its control could cause delay. Assuming it is highly probable that revenue will not be subsequently reversed, revenue (in millions) recognized in Year 1 is most likely:",
+    "options": {
+      "A": "0.",
+      "B": "43.2.",
+      "C": "45.6."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 52,
+    "category": "Financial Statement Analysis",
+    "question": "For a manufacturing company reporting under US GAAP, which of the following is classified as an operating activity on the statement of cash flows?",
+    "options": {
+      "A": "Dividends paid",
+      "B": "Purchase of treasury stock",
+      "C": "Purchase of trading securities"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 53,
+    "category": "Financial Statement Analysis",
+    "question": "Which of the following would best mitigate an analyst's confirmation bias when forecasting a firm's financial statements?",
+    "options": {
+      "A": "Speaking with management of the firm",
+      "B": "Ignoring information about the firm's competitors",
+      "C": "Reading the research from analysts with a negative opinion of the firm"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 54,
+    "category": "Financial Statement Analysis",
+    "question": "The third quintile corresponds to the:",
+    "options": {
+      "A": "40th percentile.",
+      "B": "50th percentile.",
+      "C": "60th percentile."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 55,
+    "category": "Financial Statement Analysis",
+    "question": "An inflation-targeting central bank most likely has a medium-term inflation target sufficiently:",
+    "options": {
+      "A": "below zero to avoid the risk of deflation but high enough to ensure price stability.",
+      "B": "above zero to avoid the risk of deflation but low enough to ensure price stability.",
+      "C": "above zero to avoid the risk of inflation and high enough to ensure price stability."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 56,
+    "category": "Financial Statement Analysis",
+    "question": "A country in fiscal balance with a trade surplus will most likely:",
+    "options": {
+      "A": "sell assets to foreigners to reduce the imbalance.",
+      "B": "increase the imbalance by lending to foreign countries.",
+      "C": "have an excess of domestic saving relative to investment spending."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 57,
+    "category": "Financial Statement Analysis",
+    "question": "A cooperative country is most likely to have characteristics of both:",
+    "options": {
+      "A": "technology exchange and retaliation.",
+      "B": "rules standardization and reciprocation.",
+      "C": "harmonization of tariffs and arbitrary rules."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 58,
+    "category": "Financial Statement Analysis",
+    "question": "A common market has a higher degree of economic integration than a(n):",
+    "options": {
+      "A": "customs union.",
+      "B": "monetary union.",
+      "C": "economic union."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 59,
+    "category": "Financial Statement Analysis",
+    "question": "With respect to intangible assets with indefinite lives reported under the cost model, which of the following must be disclosed? Correct",
+    "options": {
+      "A": "Date of revaluation",
+      "B": "Restrictions on title",
+      "C": "Amortization methods used"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 60,
+    "category": "Financial Statement Analysis",
+    "question": "A decrease in which of the following ratios decreases the cash conversion cycle? ● Payables turnover ● Inventory turnover ● Receivables turnover",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": ""
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 61,
+    "category": "Financial Statement Analysis",
+    "question": "In periods of rising prices and increasing inventory quantities, using the last-in, first-out (LIFO) inventory valuation method instead of the first-in, first-out (FIFO) inventory valuation method most likely increases:",
+    "options": {
+      "A": "total assets.",
+      "B": "cost of goods sold.",
+      "C": "days of inventory on hand."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 62,
+    "category": "Financial Statement Analysis",
+    "question": "Costs incurred during the development phase that are related to internally generated, identifiable intangible assets:",
+    "options": {
+      "A": "must be expensed.",
+      "B": "must be capitalized.",
+      "C": "can be capitalized if certain criteria are met."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 63,
+    "category": "Financial Statement Analysis",
+    "question": "Which of the following is an assumption of Modigliani and Miller's propositions regarding capital structure?",
+    "options": {
+      "A": "Investors have homogeneous expectations",
+      "B": "Investors can borrow and lend at a zero interest rate",
+      "C": "Financing decisions depend on investment decisions"
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 64,
+    "category": "Financial Statement Analysis",
+    "question": "If the annual target return is 4%, the sample target semideviation of returns is closest to:",
+    "options": {
+      "A": "3.0%.",
+      "B": "3.5%.",
+      "C": "4.2%."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 65,
+    "category": "Financial Statement Analysis",
+    "question": "In monopolistically competitive markets, economic profits:",
+    "options": {
+      "A": "cannot be earned.",
+      "B": "can be earned in the short run only.",
+      "C": "can be earned in the short run and in the long run."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 66,
+    "category": "Financial Statement Analysis",
+    "question": "In geopolitics, cabotage is best described as a:",
+    "options": {
+      "A": "financial tool.",
+      "B": "multi-tool approach.",
+      "C": "national security tool."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 67,
+    "category": "Financial Statement Analysis",
+    "question": "If current liabilities are £500 million, the quick ratio is:",
+    "options": {
+      "A": "2.4.",
+      "B": "2.8.",
+      "C": "4.2."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 68,
+    "category": "Financial Statement Analysis",
+    "question": "Which of the following capital investments would most likely be classified as a going concern project?",
+    "options": {
+      "A": "Upgrade of older production facilities to reduce costs",
+      "B": "Modification of production processes to comply with new regulation",
+      "C": "Funding research on the creation of new products based on an innovative technology"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 69,
+    "category": "Financial Statement Analysis",
+    "question": "Which of the following returns is the largest?",
+    "options": {
+      "A": "The geometric mean annual return",
+      "B": "The arithmetic mean annual return",
+      "C": "The two-year holding period return"
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 70,
+    "category": "Financial Statement Analysis",
+    "question": "A bank account has a stated annual interest rate of 3.5% with quarterly compounding. If the current value of the account is $100,000, the future value of the account two years from now is closest to:",
+    "options": {
+      "A": "$107,123.",
+      "B": "$107,207.",
+      "C": "$107,218."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 71,
+    "category": "Financial Statement Analysis",
+    "question": "The static trade-off theory of capital structure most likely considers:",
+    "options": {
+      "A": "agency costs of equity.",
+      "B": "information asymmetry.",
+      "C": "the tax shield provided by debt."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 72,
+    "category": "Financial Statement Analysis",
+    "question": "A company is prohibited from reversing the impairment loss on a long-lived asset classified as:",
+    "options": {
+      "A": "held for use under IFRS.",
+      "B": "held for use under US GAAP.",
+      "C": "held for sale under US GAAP."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 73,
+    "category": "Financial Statement Analysis",
+    "question": "When testing a hypothesis, the power of a test is best described as the:",
+    "options": {
+      "A": "same as the level of significance of the test.",
+      "B": "probability of rejecting a true null hypothesis.",
+      "C": "probability of correctly rejecting the null hypothesis."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 74,
+    "category": "Financial Statement Analysis",
+    "question": "Which market is most likely monopolistically competitive?",
+    "options": {
+      "A": "Market 1",
+      "B": "Market 2",
+      "C": "Market 3"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 75,
+    "category": "Financial Statement Analysis",
+    "question": "If inventory that was written down in a previous reporting period subsequently increases in value, the amount of the original write-down can be reversed under:",
+    "options": {
+      "A": "IFRS only.",
+      "B": "US GAAP only.",
+      "C": "both IFRS and US GAAP."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 76,
+    "category": "Financial Statement Analysis",
+    "question": "Goodness of fit measures derived from analysis of variance (ANOVA) data most likely include the:",
+    "options": {
+      "A": "coefficient of variation.",
+      "B": "regression coefficients.",
+      "C": "standard error of the estimate."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 77,
+    "category": "Financial Statement Analysis",
+    "question": "If an auditor is experiencing some scope limitation, but can still issue an opinion, the auditor most likely issues an):",
+    "options": {
+      "A": "qualified opinion.",
+      "B": "unqualified opinion.",
+      "C": "disclaimer of opinion."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 78,
+    "category": "Financial Statement Analysis",
+    "question": "If total industry sales are forecasted to be $3.3 billion and the company has no interest expense, the company's forecasted free cash flow to the firm is closest to:",
+    "options": {
+      "A": "$43 million.",
+      "B": "$52 million.",
+      "C": "$55 million."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 79,
+    "category": "Financial Statement Analysis",
+    "question": "With respect to business models, network effects can apply to:",
+    "options": {
+      "A": "internet-based businesses only.",
+      "B": "non-internet-based businesses only.",
+      "C": "both internet-based businesses and non-internet-based businesses."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 80,
+    "category": "Financial Statement Analysis",
+    "question": "Compared to shareholders in public companies, shareholders in private companies typically:",
+    "options": {
+      "A": "have longer holding periods.",
+      "B": "can sell their shares more easily.",
+      "C": "have less control over management."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 81,
+    "category": "Financial Statement Analysis",
+    "question": "When calculating cash paid to suppliers based on income statement and balance sheet data, cost of sales is adjusted for changes in:",
+    "options": {
+      "A": "inventory only.",
+      "B": "accounts payable only.",
+      "C": "both inventory and accounts payable."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 82,
+    "category": "Financial Statement Analysis",
+    "question": "The account balance at the end of the second year is closest to:",
+    "options": {
+      "A": "€8,432.",
+      "B": "€9,672.",
+      "C": "€10,912."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 83,
+    "category": "Financial Statement Analysis",
+    "question": "The company's WACC is equal to:",
+    "options": {
+      "A": "5.75%.",
+      "B": "6.50%.",
+      "C": "7.00%."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 84,
+    "category": "Financial Statement Analysis",
+    "question": "The company in the growth phase of its lifecycle is most likely:",
+    "options": {
+      "A": "Company 1.",
+      "B": "Company 2.",
+      "C": "Company 3."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 85,
+    "category": "Financial Statement Analysis",
+    "question": "Changes to the allowance for inventory obsolescence have already been reflected in cost of sales. The inventory turnover (based on average inventory) for Year 2 is closest to:",
+    "options": {
+      "A": "4.0.",
+      "B": "4.2.",
+      "C": "4.5."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 86,
+    "category": "Financial Statement Analysis",
+    "question": "If the cost of capital exceeds the return on invested capital, shareholder value will:",
+    "options": {
+      "A": "decrease.",
+      "B": "remain the same.",
+      "C": "increase."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 87,
+    "category": "Financial Statement Analysis",
+    "question": "The expected return on the portfolio is closest to:",
+    "options": {
+      "A": "8.2%.",
+      "B": "10.0%.",
+      "C": "10.8%."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 88,
+    "category": "Financial Statement Analysis",
+    "question": "The cost of which source of capital most likely requires adjustment for taxes in the calculation of a firm's weighted average cost of capital?",
+    "options": {
+      "A": "Bonds",
+      "B": "Common stock",
+      "C": "Preferred stock"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 89,
+    "category": "Financial Statement Analysis",
+    "question": "Risks associated with supplier relationships are typically mitigated through:",
+    "options": {
+      "A": "contracts.",
+      "B": "regulation.",
+      "C": "board representation."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 90,
+    "category": "Financial Statement Analysis",
+    "question": "In the year of a change in accounting policy, comparability of the presented financial statements is best with:",
+    "options": {
+      "A": "prospective application.",
+      "B": "retrospective application.",
+      "C": "modified retrospective application."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Financial Statement Analysis for detailed step-by-step calculations and conceptual reasoning."
+  }
+]

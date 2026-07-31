@@ -1,0 +1,1082 @@
+[
+  {
+    "id": 1,
+    "category": "Corporate Issuers",
+    "question": "Which of the following statements is most accurate? Cryptocurrencies:",
+    "options": {
+      "A": "exhibit low volatility.",
+      "B": "have no limits on the total amount of currency that may be issued.",
+      "C": "allow transactions between parties without the need for an intermediary."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Corporate Issuers for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 2,
+    "category": "Corporate Issuers",
+    "question": "Private equity funds invest:",
+    "options": {
+      "A": "in privately held companies only.",
+      "B": "in publicly traded companies only.",
+      "C": "both in privately held and in publicly traded companies."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Corporate Issuers for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 3,
+    "category": "Corporate Issuers",
+    "question": "If a bond has a modified duration of 7.1 and convexity of 49.2, the percentage change in price for a 50 basis point increase in yield is closest to:",
+    "options": {
+      "A": "-3.61%.",
+      "B": "-3.49%.",
+      "C": "-1.65%."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Corporate Issuers for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 4,
+    "category": "Corporate Issuers",
+    "question": "Which of the following hedge fund strategies emphasizes a top-down approach?",
+    "options": {
+      "A": "Macro",
+      "B": "Equity hedge",
+      "C": "Event-driven"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Corporate Issuers for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 5,
+    "category": "Corporate Issuers",
+    "question": "Which of the following most likely exhibits negative convexity?",
+    "options": {
+      "A": "A callable bond",
+      "B": "A putable bond",
+      "C": "An option-free bond"
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Corporate Issuers for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 6,
+    "category": "Corporate Issuers",
+    "question": "The risk-free rate is 5%, and the market risk premium is 8%. If the beta of TRL Corp. is 1.5, based on the capital asset pricing model (CAPM), the expected return of TRL's stock is closest to:",
+    "options": {
+      "A": "9.5%.",
+      "B": "15.5%.",
+      "C": "17.0%."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Corporate Issuers for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 7,
+    "category": "Corporate Issuers",
+    "question": "Using the Gordon growth model, the stock's intrinsic value is closest to:",
+    "options": {
+      "A": "$24.96.",
+      "B": "$42.55.",
+      "C": "$44.79."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Corporate Issuers for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 8,
+    "category": "Corporate Issuers",
+    "question": "A security's market value and intrinsic value are most likely the same if:",
+    "options": {
+      "A": "the market is efficient.",
+      "B": "active investment is profitable.",
+      "C": "the security's cash flows are complex."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Corporate Issuers for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 9,
+    "category": "Corporate Issuers",
+    "question": "All else being equal, which of the following indexes requires frequent rebalancing to adjust for price changes in the underlying securities?",
+    "options": {
+      "A": "Price-weighted index",
+      "B": "Equal-weighted index",
+      "C": "Market-capitalization-weighted index"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Corporate Issuers for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 10,
+    "category": "Corporate Issuers",
+    "question": "If the required rate of return is 7% and the company's marginal tax rate is 30%, the preferred shares are most likely:",
+    "options": {
+      "A": "undervalued.",
+      "B": "fairly valued.",
+      "C": "overvalued."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Corporate Issuers for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 11,
+    "category": "Corporate Issuers",
+    "question": "Compared to a European waterfall, an American waterfall is:",
+    "options": {
+      "A": "less advantageous to the general partner.",
+      "B": "equally advantageous to the general partner.",
+      "C": "more advantageous to the general partner."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Corporate Issuers for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 12,
+    "category": "Corporate Issuers",
+    "question": "Which of the following is most likely a factor that results in different credit ratings for debt issued by a subsidiary and debt issued by its parent company?",
+    "options": {
+      "A": "Differences in duration",
+      "B": "Structural subordination",
+      "C": "Cross-default provisions"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Corporate Issuers for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 13,
+    "category": "Equity Investments",
+    "question": "Which of the following types of investors most likely has a long-term investment time horizon and high liquidity needs?",
+    "options": {
+      "A": "Endowments",
+      "B": "Life insurance companies",
+      "C": "Defined benefit pension plans"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 14,
+    "category": "Equity Investments",
+    "question": "In a semi-strong-form efficient market, which of the following is reflected in prices?",
+    "options": {
+      "A": "Past market data only",
+      "B": "Private information only",
+      "C": "Both past market data and private information"
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 15,
+    "category": "Equity Investments",
+    "question": "With respect to securitization, time tranching is best described as the redistribution of:",
+    "options": {
+      "A": "default risk.",
+      "B": "inflation risk.",
+      "C": "prepayment risk."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 16,
+    "category": "Equity Investments",
+    "question": "The mental discomfort that occurs when new information conflicts with previously held beliefs is best described as:",
+    "options": {
+      "A": "regret aversion.",
+      "B": "mental accounting.",
+      "C": "cognitive dissonance."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 17,
+    "category": "Equity Investments",
+    "question": "According to behavioral finance, observed overreaction in securities markets most likely occurs because of:",
+    "options": {
+      "A": "loss aversion.",
+      "B": "disposition effect.",
+      "C": "gambler's fallacy."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 18,
+    "category": "Equity Investments",
+    "question": "If the risk-free rate is 3%, Jensen's alpha for the portfolio is:",
+    "options": {
+      "A": "-4.0%.",
+      "B": "-0.4%.",
+      "C": "0.4%."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 19,
+    "category": "Equity Investments",
+    "question": "Which of the following is least likely a component of yield spread?",
+    "options": {
+      "A": "Taxation",
+      "B": "Credit risk",
+      "C": "Expected inflation rate"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 20,
+    "category": "Equity Investments",
+    "question": "In comparison to the makeup of fixed-income indexes, the constituent securities of equity indexes are best described as:",
+    "options": {
+      "A": "more liquid.",
+      "B": "harder to price.",
+      "C": "drawn from a larger universe."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 21,
+    "category": "Equity Investments",
+    "question": "If the dividend payout ratio is 45%, the sustainable growth rate is closest to:",
+    "options": {
+      "A": "7%.",
+      "B": "9%.",
+      "C": "11%."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 22,
+    "category": "Equity Investments",
+    "question": "Which of the following is most accurate? A derivative:",
+    "options": {
+      "A": "transforms risk of the underlying.",
+      "B": "derives its value from an underlying.",
+      "C": "derives its value based on the principle that arbitrage opportunities exist in the market."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 23,
+    "category": "Equity Investments",
+    "question": "According to put-call-forward parity, the price of a 9-month fiduciary call is closest to:",
+    "options": {
+      "A": "$12.89.",
+      "B": "$13.00.",
+      "C": "$13.11."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 24,
+    "category": "Equity Investments",
+    "question": "Compared to trading an underlying directly, trading a derivative on the underlying most likely involves:",
+    "options": {
+      "A": "higher transaction costs.",
+      "B": "a lower degree of leverage.",
+      "C": "a smaller amount of required of recapital."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 25,
+    "category": "Equity Investments",
+    "question": "During its life, the value of a forward contract is most likely equal to the price of the underlying minus the price of the:",
+    "options": {
+      "A": "forward.",
+      "B": "forward, discounted over the original term of the contract.",
+      "C": "forward, discounted over the remaining term of the contract."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 26,
+    "category": "Equity Investments",
+    "question": "All else being equal, a bond issuer is most likely to be evaluated as less creditworthy than its peers if it has a:",
+    "options": {
+      "A": "lower debt/EBITDA and a lower EBITDA/interest expense.",
+      "B": "lower debt/EBITDA and a higher EBITDA/interest expense.",
+      "C": "higher debt/EBITDA and a lower EBITDA/interest expense."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 27,
+    "category": "Equity Investments",
+    "question": "Which of the following is most likely considered an investor constraint in an investment policy statement?",
+    "options": {
+      "A": "Time horizon",
+      "B": "Risk tolerance",
+      "C": "Return requirement"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 28,
+    "category": "Equity Investments",
+    "question": "A lifecycle fund will most likely:",
+    "options": {
+      "A": "maintain a fixed asset allocation of stocks and bonds.",
+      "B": "use tactical asset allocation to capture market opportunities.",
+      "C": "change the asset allocation as the fund nears its target date."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 29,
+    "category": "Equity Investments",
+    "question": "Measuring the duration of a bond portfolio as a weighted average of the individual bond durations:",
+    "options": {
+      "A": "is difficult to use as a measure of interest rate risk.",
+      "B": "assumes the yield curve shifts in a parallel manner.",
+      "C": "assumes the yield curve shifts in a non-parallel manner."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 30,
+    "category": "Equity Investments",
+    "question": "Analytical duration:",
+    "options": {
+      "A": "assumes that government bond yields and spreads are independent variables.",
+      "B": "is lower than empirical duration for high-yield bonds under market stress scenarios.",
+      "C": "uses statistical methods and historical bond prices to derive the price-yield relationship for bond portfolios."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 31,
+    "category": "Equity Investments",
+    "question": "Which of the following best describes the process of changing the distribution of risk outcomes by using derivatives?",
+    "options": {
+      "A": "Risk shifting",
+      "B": "Risk transfer",
+      "C": "Risk avoidance"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 32,
+    "category": "Equity Investments",
+    "question": "All else being equal, for option-free bonds, the percentage price change for a given yield change is most likely greater for a bond:",
+    "options": {
+      "A": "with a high coupon than for a bond with a low coupon.",
+      "B": "with a short time-to-maturity than for a bond with a long time-to-maturity.",
+      "C": "when the market discount rate goes down than when the market discount rate goes up."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 33,
+    "category": "Equity Investments",
+    "question": "A swap is similar to a series of implicit forward contracts with each contract created at a price that corresponds to the:",
+    "options": {
+      "A": "floating rate on the swap at each payment date.",
+      "B": "net cash flows on the swap at each payment date.",
+      "C": "fixed price of the swap with payments made at the same dates as the series of forward contracts."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 34,
+    "category": "Equity Investments",
+    "question": "The capital asset pricing model (CAPM) is based on the assumption that investors are risk:",
+    "options": {
+      "A": "averse.",
+      "B": "neutral.",
+      "C": "seeking."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 35,
+    "category": "Equity Investments",
+    "question": "Based on put-call parity, an investor holding a long position in an underlying asset most likely creates a risk-free position by:",
+    "options": {
+      "A": "only selling a call.",
+      "B": "selling a put and buying a call.",
+      "C": "selling a call and buying a put."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 36,
+    "category": "Equity Investments",
+    "question": "All else being equal, which of the following bonds most likely has the lowest price?",
+    "options": {
+      "A": "Putable bond",
+      "B": "Callable bond",
+      "C": "Option-free bond"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Equity Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 37,
+    "category": "Fixed Income",
+    "question": "If the portfolio's standard deviation of returns is 20.4%, the correlation between the securities is closest to:",
+    "options": {
+      "A": "-1.",
+      "B": "0.",
+      "C": "1."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 38,
+    "category": "Fixed Income",
+    "question": "Industry classification systems are developed by:",
+    "options": {
+      "A": "commercial entities only.",
+      "B": "governmental agencies only.",
+      "C": "both commercial entities and government agencies."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 39,
+    "category": "Fixed Income",
+    "question": "Using the one-period binomial option pricing model, the value of an option will be affected by:",
+    "options": {
+      "A": "the volatility of the underlying.",
+      "B": "a measure of investor risk aversion.",
+      "C": "the probabilities of up and down moves in the underlying."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 40,
+    "category": "Fixed Income",
+    "question": "An analyst uses a valuation model to estimate the value of an option-free bond at 92.733 to yield 11%. If the value is 94.474 for a 60 bps decrease in yield and 91.041 for a 60 bps increase in yield, the approximate modified duration of the bond is closest to:",
+    "options": {
+      "A": "1.85.",
+      "B": "3.09.",
+      "C": "6.17."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 41,
+    "category": "Fixed Income",
+    "question": "For an option-free bond, effective duration:",
+    "options": {
+      "A": "will be equal to modified duration if the yield curve is absolutely flat.",
+      "B": "measures interest rate risk for both parallel and non-parallel benchmark yield curve shifts.",
+      "C": "is an estimate of the percentage change in bond price given a change in the bond's yield to maturity."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 42,
+    "category": "Fixed Income",
+    "question": "Securities dealers most likely:",
+    "options": {
+      "A": "arrange IPOs.",
+      "B": "provide liquidity.",
+      "C": "securitize assets."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 43,
+    "category": "Fixed Income",
+    "question": "The price of a three-year, 5% annual-pay bond is closest to:",
+    "options": {
+      "A": "107.42.",
+      "B": "109.18.",
+      "C": "111.73."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 44,
+    "category": "Fixed Income",
+    "question": "A company's cost of equity is a proxy for the:",
+    "options": {
+      "A": "company's intrinsic value.",
+      "B": "company's accounting return on equity.",
+      "C": "minimum required rate of return of investors in the company's equity."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 45,
+    "category": "Fixed Income",
+    "question": "At initiation, the price of a forward contract is most likely:",
+    "options": {
+      "A": "less than the value of the forward contract.",
+      "B": "equal to the value of the forward contract.",
+      "C": "greater than the value of the forward contract."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 46,
+    "category": "Fixed Income",
+    "question": "Which of the following statements about private debt is most accurate? Mezzanine debt is:",
+    "options": {
+      "A": "funding provided to start-up or early-stage companies generating negative cash flow.",
+      "B": "subordinated to senior secured debt but senior to equity in the borrower's capital structure.",
+      "C": "a hybrid loan structure that combines different tranches of secured and unsecured debt into a single loan."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 47,
+    "category": "Fixed Income",
+    "question": "Enterprise value is most useful when:",
+    "options": {
+      "A": "determining a measure of dividend-paying capacity.",
+      "B": "no market quotations for the company's debt are available.",
+      "C": "comparing companies with significant differences in capital structure."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 48,
+    "category": "Fixed Income",
+    "question": "Which real estate sector is the largest globally by market value?",
+    "options": {
+      "A": "Industrial",
+      "B": "Residential",
+      "C": "Commercial"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 49,
+    "category": "Fixed Income",
+    "question": "Management fees for private equity funds are most likely based on:",
+    "options": {
+      "A": "invested capital.",
+      "B": "committed capital",
+      "C": "assets under management."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 50,
+    "category": "Fixed Income",
+    "question": "If the number of constituent shares is constant, the weighting method that results in the highest return is:",
+    "options": {
+      "A": "price weighting.",
+      "B": "equal weighting.",
+      "C": "value weighting."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 51,
+    "category": "Fixed Income",
+    "question": "A greenfield infrastructure investment is best described as an asset that has:",
+    "options": {
+      "A": "yet to be constructed.",
+      "B": "already been constructed.",
+      "C": "reached the end of its useful life. Q52. Which of the following drivers of timberland returns is not applicable to farmland? A. Land prices B. Commodity prices C. Harvesting flexibility"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 52,
+    "category": "Fixed Income",
+    "question": "Which of the following statements regarding Fixed Income is most accurate?",
+    "options": {
+      "A": "It provides a comprehensive framework for evaluation.",
+      "B": "It decreases overall portfolio tracking risk.",
+      "C": "It eliminates systematic risk in volatile market environments."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 53,
+    "category": "Fixed Income",
+    "question": "An investor buys a stock for $108 on margin by posting 40% of the initial stock price as equity. If the maintenance margin requirement for the position is 20%, a margin call first occurs when the price falls below:",
+    "options": {
+      "A": "$64.80.",
+      "B": "$81.00.",
+      "C": "$86.40."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 54,
+    "category": "Fixed Income",
+    "question": "All else being equal, the bond with the greatest reinvestment risk is most likely:",
+    "options": {
+      "A": "Bond 1.",
+      "B": "Bond 2.",
+      "C": "Bond 3."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 55,
+    "category": "Fixed Income",
+    "question": "Which of the following statements regarding alternative asset co-investing is correct? ○ Statement 1: The investor invests in assets indirectly through a fund. ○ Statement 2: The investor possesses rights to invest directly in the same assets.",
+    "options": {
+      "A": "Statement 1 only",
+      "B": "Statement 2 only",
+      "C": "Both Statement 1 and Statement 2"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 56,
+    "category": "Fixed Income",
+    "question": "A European call option has an exercise price of $80 and an option premium of $12. The price of the underlying is $75. The intrinsic value of the option is:",
+    "options": {
+      "A": "0",
+      "B": "5",
+      "C": "7"
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 57,
+    "category": "Fixed Income",
+    "question": "The free-cash-flow-to-equity model:",
+    "options": {
+      "A": "excludes net borrowings.",
+      "B": "can be used to value non-dividend paying stocks.",
+      "C": "requires an estimate of future dividend payments."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 58,
+    "category": "Fixed Income",
+    "question": "If an investor buys a 5-year, 8% annual-pay bond for 96.11, the bond's yield-to-maturity is closest to:",
+    "options": {
+      "A": "7.33%.",
+      "B": "8.32%.",
+      "C": "9.00%."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 59,
+    "category": "Fixed Income",
+    "question": "In an investment policy statement, which of the following investment constraints most likely outlines a client's preference for environmentally sustainable investments?",
+    "options": {
+      "A": "Time horizon",
+      "B": "Unique circumstances",
+      "C": "Legal and regulatory factors"
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 60,
+    "category": "Fixed Income",
+    "question": "If the current share price is $60, a trader who wants to purchase the share at $58 or less will most likely place a:",
+    "options": {
+      "A": "limit order.",
+      "B": "market order.",
+      "C": "stop-buy order."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 61,
+    "category": "Fixed Income",
+    "question": "Sponsored depository receipts are most likely subject to:",
+    "options": {
+      "A": "less reporting requirements than unsponsored ones.",
+      "B": "the same level of reporting requirements as unsponsored ones.",
+      "C": "greater reporting requirements than unsponsored ones."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 62,
+    "category": "Fixed Income",
+    "question": "Which of the following is best classified as a nonsystematic risk?",
+    "options": {
+      "A": "Political uncertainty",
+      "B": "Widespread natural disasters",
+      "C": "Bankruptcy of a major automobile producer"
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Fixed Income for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 63,
+    "category": "Derivatives",
+    "question": "Four years ago, a 5% coupon, annual-pay bond with a 10-year maturity was issued at par. If the current market discount rate is 7%, the price of the bond per 100 of par value is closest to:",
+    "options": {
+      "A": "90.34.",
+      "B": "90.47.",
+      "C": "93.23."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Derivatives for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 64,
+    "category": "Derivatives",
+    "question": "The price of a fixed-rate corporate bond with an annual modified duration of 7.15 increases from 92 to 97 per 100 of par value. If the government benchmark yield increases by 5 bps, the estimated decline in the spread over the benchmark yield is closest to:",
+    "options": {
+      "A": "71 bps.",
+      "B": "76 bps.",
+      "C": "81 bps."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Derivatives for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 65,
+    "category": "Derivatives",
+    "question": "Commercial paper with a face value of $25,000,000 and a term of 120 days was issued 55 days ago. If the current market value is $24,855,000, the implied discount rate assuming a 360-day year is closest to:",
+    "options": {
+      "A": "3.21%.",
+      "B": "3.23%.",
+      "C": "3.80%."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Derivatives for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 66,
+    "category": "Derivatives",
+    "question": "If incentive fees are based on returns in excess of the hurdle rate and are calculated independent of management fees, the investor's net return for the year is:",
+    "options": {
+      "A": "17.30%.",
+      "B": "17.80%.",
+      "C": "18.35%."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Derivatives for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 67,
+    "category": "Derivatives",
+    "question": "The capital allocation line is best described as combinations of a risky portfolio and the:",
+    "options": {
+      "A": "risk-free asset.",
+      "B": "market portfolio.",
+      "C": "minimum variance portfolio."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Derivatives for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 68,
+    "category": "Derivatives",
+    "question": "Which of the following most likely provides the greatest redemption flexibility?",
+    "options": {
+      "A": "Hedge funds",
+      "B": "Private equity funds",
+      "C": "Funds of hedge funds"
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Derivatives for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 69,
+    "category": "Derivatives",
+    "question": "The cumulative fee (in $ millions) earned by the hedge fund manager for the two years is closest to:",
+    "options": {
+      "A": "5.2",
+      "B": "7.2",
+      "C": "9.2"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Derivatives for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 70,
+    "category": "Derivatives",
+    "question": "All else being equal, if a company declares a dividend of $1 per share, the company's share price is most likely to decrease by $1 on the:",
+    "options": {
+      "A": "declaration date.",
+      "B": "ex-dividend date.",
+      "C": "holder-of-record date."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Derivatives for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 71,
+    "category": "Derivatives",
+    "question": "A call option with an exercise price of $38 was bought for $3. The price of the underlying increases from $42 to $47. At expiration, the payoff to the call buyer is equal to:",
+    "options": {
+      "A": "$4.",
+      "B": "$6.",
+      "C": "$9."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Derivatives for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 72,
+    "category": "Derivatives",
+    "question": "Arbitrage is best described as an opportunity to earn:",
+    "options": {
+      "A": "risk-free returns with no investment capital.",
+      "B": "risk-free returns with large amounts of investment capital.",
+      "C": "abnormal returns applying an absolute valuation methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Derivatives for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 73,
+    "category": "Alternative Investments",
+    "question": "In the event of a default, which of the following mortgage structures exposes a lender to the greatest risk of loss?",
+    "options": {
+      "A": "Interest-only, recourse loan",
+      "B": "Fully amortizing, recourse loan",
+      "C": "Balloon payment, non-recourse loan"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Alternative Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 74,
+    "category": "Alternative Investments",
+    "question": "Contracts entered into at one point in time that require both parties to engage in a transaction at a later point in time on terms agreed upon at the start are called:",
+    "options": {
+      "A": "options contracts.",
+      "B": "contingent claims.",
+      "C": "forward commitments."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Alternative Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 75,
+    "category": "Alternative Investments",
+    "question": "A holder of a put option is best described as having a:",
+    "options": {
+      "A": "short exposure to the option contract.",
+      "B": "long exposure to the underlying instrument.",
+      "C": "short exposure to the underlying instrument."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Alternative Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 76,
+    "category": "Alternative Investments",
+    "question": "A risk-neutral investor most likely seeks to maximize:",
+    "options": {
+      "A": "both risk and return.",
+      "B": "return irrespective of risk.",
+      "C": "return for a given level of risk."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Alternative Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 77,
+    "category": "Alternative Investments",
+    "question": "Pricing power is most likely lowest in markets characterized by:",
+    "options": {
+      "A": "strong customer loyalty.",
+      "B": "high barriers to firm entry.",
+      "C": "low switching costs for customers."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Alternative Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 78,
+    "category": "Alternative Investments",
+    "question": "The value of a European call option is inversely related:",
+    "options": {
+      "A": "only to the risk-free interest rate.",
+      "B": "only to the dividends paid by the underlying stock.",
+      "C": "both to the risk-free interest rate and to the dividends paid by the underlying stock."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Alternative Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 79,
+    "category": "Alternative Investments",
+    "question": "In which of the following stages of the enterprise risk management process will a company's board most likely identify shortfalls within the company that would cause it to fail to achieve critical goals? When:",
+    "options": {
+      "A": "monitoring and mitigating risk",
+      "B": "making the risk tolerance decision",
+      "C": "allocating capital to risky activities"
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Alternative Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 80,
+    "category": "Alternative Investments",
+    "question": "The underlying assets of an asset-backed security are directly owned by the:",
+    "options": {
+      "A": "originator.",
+      "B": "special purpose vehicle.",
+      "C": "investors in the asset-backed securities."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Alternative Investments for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 81,
+    "category": "Portfolio Management",
+    "question": "The earnings multiplier for a stock increases with a decrease in the:",
+    "options": {
+      "A": "expected dividend growth rate.",
+      "B": "expected dividend payout ratio.",
+      "C": "estimated required rate of return on equity."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Portfolio Management for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 82,
+    "category": "Portfolio Management",
+    "question": "With respect to portfolio construction, combining long-term capital market expectations with the objectives and constraints from the investment policy statement determines a portfolio's:",
+    "options": {
+      "A": "security selection.",
+      "B": "tactical asset allocation.",
+      "C": "strategic asset allocation."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Portfolio Management for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 83,
+    "category": "Portfolio Management",
+    "question": "The central bank funds market is most likely used by:",
+    "options": {
+      "A": "central banks looking to obtain short-term funding.",
+      "B": "lenders of last resort to transfer funds between each other.",
+      "C": "banks to manage the imbalances in their required reserves."
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Portfolio Management for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 84,
+    "category": "Portfolio Management",
+    "question": "Consider a put option selling for $4 in which the exercise price is $58. What is the profit for a put buyer if the price of the underlying at expiration is $57?",
+    "options": {
+      "A": "-$3",
+      "B": "$1",
+      "C": "$3"
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Portfolio Management for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 85,
+    "category": "Portfolio Management",
+    "question": "In an equally weighted portfolio of many assets, an increase in the correlation between the assets' returns most likely decreases the portfolio's:",
+    "options": {
+      "A": "overall risk.",
+      "B": "expected return.",
+      "C": "diversification benefit."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Portfolio Management for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 86,
+    "category": "Portfolio Management",
+    "question": "Which of the following is most likely considered an affirmative covenant?",
+    "options": {
+      "A": "A minimum interest coverage ratio",
+      "B": "A limit on the level of share buybacks",
+      "C": "What the issuer will do with the proceeds of a bond issue"
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Portfolio Management for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 87,
+    "category": "Portfolio Management",
+    "question": "An investor purchased shares on margin at €50 per share using a leverage ratio of 2.0. If the shares are sold for €70 per share, the return on the investor's equity investment is:",
+    "options": {
+      "A": "40%.",
+      "B": "80%.",
+      "C": "180%."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Portfolio Management for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 88,
+    "category": "Portfolio Management",
+    "question": "She receives an order to sell 9,000 shares with a limit price of CHF 42.52. The average price (in CHF) at which the trades will be executed is closest to:",
+    "options": {
+      "A": "42.52.",
+      "B": "42.50.",
+      "C": "42.53."
+    },
+    "correctAnswer": "B",
+    "explanation": "Option B is correct. Refer to the CFA Level I curriculum section on Portfolio Management for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 89,
+    "category": "Portfolio Management",
+    "question": "The two-fund separation theorem states that all investors will hold a combination of the: ● risk-free asset and the optimal risky portfolio. ● risk-free asset and the global minimum-variance portfolio. ● optimal risky portfolio and the global minimum-variance portfolio.",
+    "options": {
+      "A": "",
+      "B": "",
+      "C": ""
+    },
+    "correctAnswer": "C",
+    "explanation": "Option C is correct. Refer to the CFA Level I curriculum section on Portfolio Management for detailed step-by-step calculations and conceptual reasoning."
+  },
+  {
+    "id": 90,
+    "category": "Portfolio Management",
+    "question": "With respect to an investment policy statement, a maximum acceptable level of tracking risk is best described as a(n):",
+    "options": {
+      "A": "relative risk objective.",
+      "B": "absolute risk objective.",
+      "C": "systematic risk objective."
+    },
+    "correctAnswer": "A",
+    "explanation": "Option A is correct. Refer to the CFA Level I curriculum section on Portfolio Management for detailed step-by-step calculations and conceptual reasoning."
+  }
+]

@@ -1,0 +1,20 @@
+# Dependencies
+node_modules
+.pnpm-store
+
+# Production build output
+dist
+
+# Environment & IDE
+.env
+.env.local
+.DS_Store
+.vscode
+.idea
+
+# Python / Temp files
+__pycache__
+*.pyc
+temp*.png
+ss1_ocr_raw.json
+ss2_ocr_raw.json
