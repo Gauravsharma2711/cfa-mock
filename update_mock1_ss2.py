@@ -1,4 +1,6 @@
-[
+import json
+
+data = [
   {
     "id": 1,
     "category": "Corporate Issuers",
@@ -1080,3 +1082,8 @@
     "explanation": "Correct because tracking risk measures standard deviation of excess returns relative to a benchmark index (a relative risk objective)."
   }
 ]
+
+with open('public/data/mock1_ss2.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, indent=2, ensure_ascii=False)
+
+print(f"Successfully wrote {len(data)} questions to public/data/mock1_ss2.json")

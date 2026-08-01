@@ -1,4 +1,6 @@
-[
+import json
+
+data = [
   {
     "id": 1,
     "category": "Ethical and Professional Standards",
@@ -1080,3 +1082,8 @@
     "explanation": "Retrospective application restates prior financial periods under the new policy, providing consistent multi-year statement comparability."
   }
 ]
+
+with open('public/data/mock1_ss1.json', 'w', encoding='utf-8') as f:
+    json.dump(data, f, indent=2, ensure_ascii=False)
+
+print(f"Successfully wrote {len(data)} questions to public/data/mock1_ss1.json")
