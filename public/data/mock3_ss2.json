@@ -1,0 +1,1082 @@
+[
+  {
+    "id": 1,
+    "category": "Corporate Issuers",
+    "question": "The price of a European call option is:",
+    "options": {
+      "A": "directly related to the price of the underlying and inversely related to volatility of the underlying.",
+      "B": "directly related to volatility of the underlying and inversely related to the dividend yield of the underlying.",
+      "C": "directly related to the dividend yield of the underlying and inversely related to the price of the underlying."
+    },
+    "correctAnswer": "B",
+    "explanation": "directly related to volatility of the underlying and inversely related to the dividend yield of the underlying."
+  },
+  {
+    "id": 2,
+    "category": "Corporate Issuers",
+    "question": "An analyst observes the following annual spot rates:\r\n\r\nPeriod\tSpot Rate\r\n1 year\t1.0%\r\n2 years\t1.1%\r\n3 years\t1.3%\r\nBased only on this information, the arbitrage-free price of a 3% annual-pay bond with a three-year maturity is closest to:",
+    "options": {
+      "A": "104.99.",
+      "B": "105.48.",
+      "C": "107.62."
+    },
+    "correctAnswer": "A",
+    "explanation": "104.99."
+  },
+  {
+    "id": 3,
+    "category": "Corporate Issuers",
+    "question": "With respect to an IPS, which of the following best describes an absolute risk objective for a client's portfolio?",
+    "options": {
+      "A": "An annual tracking risk of less than 2 percent",
+      "B": "A twelve-month 95% value at risk of less than €1,000,000",
+      "C": "Maintaining at least €10,000 in cash for planned monthly withdrawals"
+    },
+    "correctAnswer": "B",
+    "explanation": "A twelve-month 95% value at risk of less than €1,000,000"
+  },
+  {
+    "id": 4,
+    "category": "Corporate Issuers",
+    "question": "The average life of a mortgage pass-through security is two years. Six months ago, its average life was five years. Over the last six months, investors in the security have most likely experienced:",
+    "options": {
+      "A": "balloon risk.",
+      "B": "extension risk.",
+      "C": "contraction risk."
+    },
+    "correctAnswer": "C",
+    "explanation": "contraction risk."
+  },
+  {
+    "id": 5,
+    "category": "Corporate Issuers",
+    "question": "All else being equal, which of the following would lower a company's sustainable growth rate? A(n):",
+    "options": {
+      "A": "increased retention rate",
+      "B": "decreased return on total assets",
+      "C": "increased financial leverage ratio"
+    },
+    "correctAnswer": "B",
+    "explanation": "decreased return on total assets"
+  },
+  {
+    "id": 6,
+    "category": "Corporate Issuers",
+    "question": "Which of the following statements about real estate investments is most accurate?",
+    "options": {
+      "A": "Investors in real estate limited partnerships are exposed to unlimited liability",
+      "B": "Free and clear ownership means that the property is unencumbered by a mortgage",
+      "C": "REITs are required to retain most of their taxable income for future capital expenditures"
+    },
+    "correctAnswer": "B",
+    "explanation": "Free and clear ownership means that the property is unencumbered by a mortgage"
+  },
+  {
+    "id": 7,
+    "category": "Corporate Issuers",
+    "question": "In the binomial model, if the probability of a downward movement in an underlying increases, the value of a call option:",
+    "options": {
+      "A": "decreases.",
+      "B": "remains unchanged.",
+      "C": "increases."
+    },
+    "correctAnswer": "B",
+    "explanation": "remains unchanged."
+  },
+  {
+    "id": 8,
+    "category": "Corporate Issuers",
+    "question": "Which of the following is best classified as financial risk?",
+    "options": {
+      "A": "Market risk",
+      "B": "Longevity risk",
+      "C": "Accounting risk"
+    },
+    "correctAnswer": "A",
+    "explanation": "Market risk"
+  },
+  {
+    "id": 9,
+    "category": "Corporate Issuers",
+    "question": "For portfolio managers of active funds, market indexes are least useful as:",
+    "options": {
+      "A": "benchmarks.",
+      "B": "model portfolios.",
+      "C": "proxies to measure risk-adjusted performance."
+    },
+    "correctAnswer": "B",
+    "explanation": "model portfolios."
+  },
+  {
+    "id": 10,
+    "category": "Corporate Issuers",
+    "question": "Which of the following is most likely an element of industry and competitive analysis?",
+    "options": {
+      "A": "Analyzing market share trends",
+      "B": "Determining forecast objects and approaches",
+      "C": "Analyzing uses of capital and sources of financing"
+    },
+    "correctAnswer": "A",
+    "explanation": "Analyzing market share trends"
+  },
+  {
+    "id": 11,
+    "category": "Corporate Issuers",
+    "question": "Duration is most accurate as a measure of interest rate risk for a bond portfolio when the slope of the yield curve:",
+    "options": {
+      "A": "decreases.",
+      "B": "stays the same.",
+      "C": "increases."
+    },
+    "correctAnswer": "B",
+    "explanation": "stays the same."
+  },
+  {
+    "id": 12,
+    "category": "Corporate Issuers",
+    "question": "Which of the following most likely exhibits negative convexity?",
+    "options": {
+      "A": "A callable bond",
+      "B": "A putable bond",
+      "C": "An option-free bond"
+    },
+    "correctAnswer": "A",
+    "explanation": "A callable bond"
+  },
+  {
+    "id": 13,
+    "category": "Corporate Issuers",
+    "question": "If a security's return is plotted to the right of the market portfolio on the security market line, the security has a:",
+    "options": {
+      "A": "lower expected return and lower systematic risk than the market portfolio.",
+      "B": "higher expected return and higher systematic risk than the market portfolio.",
+      "C": "higher expected return and higher unsystematic risk than the market portfolio."
+    },
+    "correctAnswer": "B",
+    "explanation": "higher expected return and higher systematic risk than the market portfolio."
+  },
+  {
+    "id": 14,
+    "category": "Corporate Issuers",
+    "question": "Emotional biases:",
+    "options": {
+      "A": "stem from impulses and intuition.",
+      "B": "result in the same decision as assumed by traditional finance theory.",
+      "C": "are more easily corrected through better information than cognitive biases."
+    },
+    "correctAnswer": "A",
+    "explanation": "stem from impulses and intuition."
+  },
+  {
+    "id": 15,
+    "category": "Corporate Issuers",
+    "question": "Which of the following is most advantageous to the general partner of a private equity fund assuming no clawback provision?",
+    "options": {
+      "A": "American waterfall",
+      "B": "European waterfall",
+      "C": "Whole-of-fund waterfall"
+    },
+    "correctAnswer": "A",
+    "explanation": "American waterfall"
+  },
+  {
+    "id": 16,
+    "category": "Equity Investments",
+    "question": "An investor buys a stock for $108 on margin by posting 40% of the initial stock price as equity. If the maintenance margin requirement for the position is 20%, a margin call first occurs when the price falls below:",
+    "options": {
+      "A": "$64.80.",
+      "B": "$81.00.",
+      "C": "$86.40."
+    },
+    "correctAnswer": "B",
+    "explanation": "$81.00."
+  },
+  {
+    "id": 17,
+    "category": "Equity Investments",
+    "question": "Which of the following derivative contracts most likely requires an upfront payment by the buyer at contract initiation?",
+    "options": {
+      "A": "Options only",
+      "B": "Forwards only",
+      "C": "Both options and forwards"
+    },
+    "correctAnswer": "A",
+    "explanation": "Options only"
+  },
+  {
+    "id": 18,
+    "category": "Equity Investments",
+    "question": "Making a minority equity investment in a mature company that plans to expand operations best describes:",
+    "options": {
+      "A": "growth capital investing.",
+      "B": "leveraged buyout investing.",
+      "C": "development capital investing."
+    },
+    "correctAnswer": "A",
+    "explanation": "growth capital investing."
+  },
+  {
+    "id": 19,
+    "category": "Equity Investments",
+    "question": "Arbitrage is best described as an opportunity to earn:",
+    "options": {
+      "A": "risk-free returns with no investment capital.",
+      "B": "risk-free returns with large amounts of investment capital.",
+      "C": "abnormal returns applying an absolute valuation methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": "risk-free returns with no investment capital."
+  },
+  {
+    "id": 20,
+    "category": "Equity Investments",
+    "question": "Which of the following transactions is most likely to affect a company's financial leverage ratio?",
+    "options": {
+      "A": "Payment of a 9% stock dividend",
+      "B": "An increase in cash dividends paid",
+      "C": "Completion of a previously announced 1-for-20 reverse stock split"
+    },
+    "correctAnswer": "B",
+    "explanation": "An increase in cash dividends paid"
+  },
+  {
+    "id": 21,
+    "category": "Equity Investments",
+    "question": "All else being equal, non-cumulative preference shares most likely:",
+    "options": {
+      "A": "offer dividends that are less than common shares.",
+      "B": "have a claim on net assets upon liquidation of the company.",
+      "C": "receive any past unpaid dividends prior to dividends being paid to common shareholders."
+    },
+    "correctAnswer": "B",
+    "explanation": "have a claim on net assets upon liquidation of the company."
+  },
+  {
+    "id": 22,
+    "category": "Equity Investments",
+    "question": "As one moves to the right along an investor's efficient frontier, a set increase in risk is most likely to lead to:",
+    "options": {
+      "A": "sequentially smaller increases in expected return.",
+      "B": "consistent increases in expected return.",
+      "C": "sequentially larger increases in expected return."
+    },
+    "correctAnswer": "A",
+    "explanation": "sequentially smaller increases in expected return."
+  },
+  {
+    "id": 23,
+    "category": "Equity Investments",
+    "question": "Risk-averse investors make investment decisions that maximize:",
+    "options": {
+      "A": "both return and risk.",
+      "B": "return irrespective of risk.",
+      "C": "return for the same amount of risk."
+    },
+    "correctAnswer": "C",
+    "explanation": "return for the same amount of risk."
+  },
+  {
+    "id": 24,
+    "category": "Equity Investments",
+    "question": "Which of the following is most likely a factor that results in different credit ratings for debt issued by a subsidiary and debt issued by its parent company?",
+    "options": {
+      "A": "Differences in duration",
+      "B": "Structural subordination",
+      "C": "Cross-default provisions"
+    },
+    "correctAnswer": "B",
+    "explanation": "Structural subordination"
+  },
+  {
+    "id": 25,
+    "category": "Equity Investments",
+    "question": "An analyst gathers the following information about an index with a starting value of 1,000:\r\n\r\nYear\tPrice Return\tDividend Return\r\n1\t4%\t2%\r\n2\t6%\t3%\r\nThe ending value of the index at Year 2 (total return) is closest to:",
+    "options": {
+      "A": "1,102.",
+      "B": "1,150.",
+      "C": "1,155."
+    },
+    "correctAnswer": "C",
+    "explanation": "1,155."
+  },
+  {
+    "id": 26,
+    "category": "Equity Investments",
+    "question": "An analyst gathers the following information about three bonds:\r\n\r\nBond\tPayment Frequency\tPrincipal Amortization\r\n1\tMonthly\tYes\r\n2\tQuarterly\tYes\r\n3\tMonthly\tNo\r\nAll else being equal, the bond with the greatest reinvestment risk is most likely:",
+    "options": {
+      "A": "Bond 1.",
+      "B": "Bond 2.",
+      "C": "Bond 3."
+    },
+    "correctAnswer": "A",
+    "explanation": "Bond 1."
+  },
+  {
+    "id": 27,
+    "category": "Equity Investments",
+    "question": "In an equally weighted portfolio of many assets, an increase in the correlation between the assets' returns most likely decreases the portfolio's:",
+    "options": {
+      "A": "overall risk.",
+      "B": "expected return.",
+      "C": "diversification benefit."
+    },
+    "correctAnswer": "C",
+    "explanation": "diversification benefit."
+  },
+  {
+    "id": 28,
+    "category": "Equity Investments",
+    "question": "Which of the following best describes an advantage of the EV/EBITDA multiple for valuing equity? An advantage is that:",
+    "options": {
+      "A": "the multiple must be positive.",
+      "B": "EBITDA is a proxy for operating cash flow.",
+      "C": "it does not require the market value of debt."
+    },
+    "correctAnswer": "B",
+    "explanation": "EBITDA is a proxy for operating cash flow."
+  },
+  {
+    "id": 29,
+    "category": "Equity Investments",
+    "question": "The value of a swap contract at initiation is most likely equal to:",
+    "options": {
+      "A": "zero.",
+      "B": "the price of the swap.",
+      "C": "the present value of the fixed payments on the swap."
+    },
+    "correctAnswer": "A",
+    "explanation": "zero."
+  },
+  {
+    "id": 30,
+    "category": "Equity Investments",
+    "question": "All else being equal, a cash dividend most likely has the same effect on shareholders' wealth as a:",
+    "options": {
+      "A": "stock split.",
+      "B": "stock dividend.",
+      "C": "share repurchase."
+    },
+    "correctAnswer": "C",
+    "explanation": "share repurchase."
+  },
+  {
+    "id": 31,
+    "category": "Equity Investments",
+    "question": "An arbitrage opportunity most likely exists if the price of a put option is less than the combined cost of:",
+    "options": {
+      "A": "buying the underlying asset, buying the call, and buying a risk-free bond at the present value of the exercise price.",
+      "B": "shorting the underlying asset, buying the call, and buying a risk-free bond at the present value of the exercise price.",
+      "C": "shorting the underlying asset, buying the call, and shorting a risk-free bond at the present value of the exercise price."
+    },
+    "correctAnswer": "B",
+    "explanation": "shorting the underlying asset, buying the call, and buying a risk-free bond at the present value of the exercise price."
+  },
+  {
+    "id": 32,
+    "category": "Equity Investments",
+    "question": "An analysis of the competitive positioning such as Porter's five forces is typically included in:",
+    "options": {
+      "A": "an initial company research report only.",
+      "B": "a subsequent company research report only.",
+      "C": "both initial and subsequent company research reports."
+    },
+    "correctAnswer": "A",
+    "explanation": "an initial company research report only."
+  },
+  {
+    "id": 33,
+    "category": "Equity Investments",
+    "question": "With respect to private equity funds, quartile rankings:",
+    "options": {
+      "A": "are rarely used for performance evaluation.",
+      "B": "include comparisons of different investment strategies.",
+      "C": "are based on funds launched in the same vintage year."
+    },
+    "correctAnswer": "C",
+    "explanation": "are based on funds launched in the same vintage year."
+  },
+  {
+    "id": 34,
+    "category": "Equity Investments",
+    "question": "In a semi-strong-form efficient market, which of the following is reflected in prices?",
+    "options": {
+      "A": "Past market data only",
+      "B": "Private information only",
+      "C": "Both past market data and private information"
+    },
+    "correctAnswer": "A",
+    "explanation": "Past market data only"
+  },
+  {
+    "id": 35,
+    "category": "Equity Investments",
+    "question": "If a quarterly pay bond has an effective annual rate of 10%, the semiannual bond equivalent yield for this bond is closest to:",
+    "options": {
+      "A": "9.76%.",
+      "B": "10.13%.",
+      "C": "10.25%."
+    },
+    "correctAnswer": "A",
+    "explanation": "9.76%."
+  },
+  {
+    "id": 36,
+    "category": "Fixed Income",
+    "question": "Which of the following positions requires the investor to satisfy an obligation upon option exercise?",
+    "options": {
+      "A": "Short put position",
+      "B": "Long put position",
+      "C": "Long call position"
+    },
+    "correctAnswer": "A",
+    "explanation": "Short put position"
+  },
+  {
+    "id": 37,
+    "category": "Fixed Income",
+    "question": "Which of the following statements concerning a security market index is most accurate?",
+    "options": {
+      "A": "Estimated market prices of constituent securities are not used to calculate the index value",
+      "B": "The divisor will be adjusted to prevent changes not related to prices of constituent securities",
+      "C": "At inception, the total return version of an index will be greater than the price version of an index"
+    },
+    "correctAnswer": "B",
+    "explanation": "The divisor will be adjusted to prevent changes not related to prices of constituent securities"
+  },
+  {
+    "id": 38,
+    "category": "Fixed Income",
+    "question": "Which of the following best characterizes an interest rate swap?",
+    "options": {
+      "A": "A contingent claim derivative using Libor rates as reference rates",
+      "B": "A contingent claim derivative used to convert interest rate exposure from fixed-rate to floating-rate",
+      "C": "A firm commitment derivative used by investment managers to change portfolio duration without trading bonds"
+    },
+    "correctAnswer": "C",
+    "explanation": "A firm commitment derivative used by investment managers to change portfolio duration without trading bonds"
+  },
+  {
+    "id": 39,
+    "category": "Fixed Income",
+    "question": "Which of the following is best classified as a nonsystematic risk?",
+    "options": {
+      "A": "Political uncertainty",
+      "B": "Widespread natural disasters",
+      "C": "Bankruptcy of a major automobile producer"
+    },
+    "correctAnswer": "C",
+    "explanation": "Bankruptcy of a major automobile producer"
+  },
+  {
+    "id": 40,
+    "category": "Fixed Income",
+    "question": "An analyst gathers the following information about a company's preferred shares:\r\n\r\nFeature / Metric\tValue\r\nPar value\t$100.00\r\nAnnual dividend per share\t$6.00\r\nCurrent market price\t$85.71\r\nMaturity\t10 years\r\nIf the required rate of return is 7% and the company's marginal tax rate is 30%, the preferred shares are most likely:",
+    "options": {
+      "A": "undervalued.",
+      "B": "fairly valued.",
+      "C": "overvalued."
+    },
+    "correctAnswer": "A",
+    "explanation": "undervalued."
+  },
+  {
+    "id": 41,
+    "category": "Fixed Income",
+    "question": "Which of the following transactions poses the risk of losing the greatest dollar amount?",
+    "options": {
+      "A": "Selling a put with a strike price of $15 for $0.90",
+      "B": "Buying a call with a strike price of $15 for $11.25",
+      "C": "Buying a put with a strike price of $37.50 for $12.75"
+    },
+    "correctAnswer": "A",
+    "explanation": "Selling a put with a strike price of $15 for $0.90"
+  },
+  {
+    "id": 42,
+    "category": "Fixed Income",
+    "question": "When securitizing a corporation's loans, a special purpose entity most likely:",
+    "options": {
+      "A": "services the corporation's loans.",
+      "B": "sells the collateral underlying the corporation's loans.",
+      "C": "purchases the corporation's loans to use as collateral."
+    },
+    "correctAnswer": "C",
+    "explanation": "purchases the corporation's loans to use as collateral."
+  },
+  {
+    "id": 43,
+    "category": "Fixed Income",
+    "question": "All else being equal, which of the following securities is the most risky for an investor?",
+    "options": {
+      "A": "Putable preference shares",
+      "B": "Callable preference shares",
+      "C": "Non-callable preference shares"
+    },
+    "correctAnswer": "B",
+    "explanation": "Callable preference shares"
+  },
+  {
+    "id": 44,
+    "category": "Fixed Income",
+    "question": "An investor analyzes the stock market of a specific country and discovers that the stock prices are very slow to reflect new information. The investor can best profit from this situation using a(n):",
+    "options": {
+      "A": "active fund.",
+      "B": "passive fund.",
+      "C": "low cost approach."
+    },
+    "correctAnswer": "A",
+    "explanation": "active fund."
+  },
+  {
+    "id": 45,
+    "category": "Fixed Income",
+    "question": "If a bond has a modified duration of 7.1 and convexity of 49.2, the percentage change in price for a 50 basis point increase in yield is closest to:",
+    "options": {
+      "A": "-3.61%.",
+      "B": "-3.49%.",
+      "C": "-1.65%."
+    },
+    "correctAnswer": "B",
+    "explanation": "3.49%."
+  },
+  {
+    "id": 46,
+    "category": "Fixed Income",
+    "question": "An analyst gathers the following information about a portfolio:\r\n\r\nSecurity\tStandard Deviation\tPortfolio Weight\r\nA\t16%\t60%\r\nB\t27%\t40%\r\nIf the portfolio's standard deviation of returns is 20.4%, the correlation between the securities is closest to:",
+    "options": {
+      "A": "-1.",
+      "B": "0.",
+      "C": "1."
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct answer is (C) 1.."
+  },
+  {
+    "id": 47,
+    "category": "Fixed Income",
+    "question": "The capital asset pricing model (CAPM) is based on the assumption that investors are risk:",
+    "options": {
+      "A": "averse.",
+      "B": "neutral.",
+      "C": "seeking."
+    },
+    "correctAnswer": "A",
+    "explanation": "averse."
+  },
+  {
+    "id": 48,
+    "category": "Fixed Income",
+    "question": "A buy-and-hold investor purchases a fixed-rate bond at issuance and holds it until maturity. With respect to interest rate risk, this investor is exposed to:",
+    "options": {
+      "A": "market price risk only.",
+      "B": "coupon reinvestment risk only.",
+      "C": "both market price risk and coupon reinvestment risk."
+    },
+    "correctAnswer": "B",
+    "explanation": "coupon reinvestment risk only."
+  },
+  {
+    "id": 49,
+    "category": "Alternative Investments",
+    "question": "Management fees for private equity funds are most likely based on:",
+    "options": {
+      "A": "invested capital.",
+      "B": "committed capital.",
+      "C": "assets under management."
+    },
+    "correctAnswer": "B",
+    "explanation": "Correct because private equity funds levy management fees on committed capital rather than invested capital or AUM."
+  },
+  {
+    "id": 50,
+    "category": "Equity Investments",
+    "question": "Security 1 (Beg $50, End $60, Shares 300), Security 2 (Beg $75, End $95, Shares 350), Security 3 (Beg $60, End $65, Shares 400). If the number of constituent shares is constant, the weighting method that results in the highest return is:",
+    "options": {
+      "A": "price weighting.",
+      "B": "equal weighting.",
+      "C": "value weighting."
+    },
+    "correctAnswer": "A",
+    "explanation": "Correct because price-weighted return = (60+95+65)/(50+75+60) - 1 = 18.92%, which exceeds equal weighting (~18.33%) and value weighting (~18.39%)."
+  },
+  {
+    "id": 51,
+    "category": "Alternative Investments",
+    "question": "A greenfield infrastructure investment is best described as an asset that has:",
+    "options": {
+      "A": "yet to be constructed.",
+      "B": "already been constructed.",
+      "C": "reached the end of its useful life."
+    },
+    "correctAnswer": "A",
+    "explanation": "Correct because greenfield infrastructure refers to developing brand-new assets from scratch."
+  },
+  {
+    "id": 52,
+    "category": "Alternative Investments",
+    "question": "Which of the following drivers of timberland returns is not applicable to farmland?",
+    "options": {
+      "A": "Land prices",
+      "B": "Commodity prices",
+      "C": "Harvesting flexibility"
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because standing timber acts as both factory and warehouse (harvesting can be delayed), whereas farm crops must be harvested immediately."
+  },
+  {
+    "id": 53,
+    "category": "Equity Investments",
+    "question": "An investor buys a stock for $108 on margin by posting 40% of the initial stock price as equity. If the maintenance margin requirement for the position is 20%, a margin call first occurs when the price falls below:",
+    "options": {
+      "A": "$64.80.",
+      "B": "$81.00.",
+      "C": "$86.40."
+    },
+    "correctAnswer": "B",
+    "explanation": "Correct because Initial Equity/share = $43.20. Loan/share = $64.80. Margin call price P satisfies: (P - $64.80) / P = 0.20 => 0.80 P = $64.80 => P = $81.00."
+  },
+  {
+    "id": 54,
+    "category": "Fixed Income",
+    "question": "Bond 1 (Monthly, Amortizing Yes), Bond 2 (Quarterly, Amortizing Yes), Bond 3 (Monthly, Amortizing No). All else being equal, the bond with the greatest reinvestment risk is most likely:",
+    "options": {
+      "A": "Bond 1.",
+      "B": "Bond 2.",
+      "C": "Bond 3."
+    },
+    "correctAnswer": "A",
+    "explanation": "Correct because Bond 1 amortizes principal on a monthly basis, returning cash flows most frequently and exposing the holder to the greatest reinvestment risk."
+  },
+  {
+    "id": 55,
+    "category": "Alternative Investments",
+    "question": "Which of the following statements regarding alternative asset co-investing is correct? Statement 1: The investor invests in assets indirectly through a fund. Statement 2: The investor possesses rights to invest directly in the same assets.",
+    "options": {
+      "A": "Statement 1 only",
+      "B": "Statement 2 only",
+      "C": "Both Statement 1 and Statement 2"
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because co-investing involves indirect investment through a fund plus co-investment rights to invest directly in target assets."
+  },
+  {
+    "id": 56,
+    "category": "Derivatives",
+    "question": "A European call option has an exercise price of $80 and an option premium of $12. The price of the underlying is $75. The intrinsic value of the option is:",
+    "options": {
+      "A": "$0.",
+      "B": "$5.",
+      "C": "$7."
+    },
+    "correctAnswer": "A",
+    "explanation": "Correct because intrinsic value of a call option = Max(0, ST - X) = Max(0, $75 - $80) = $0."
+  },
+  {
+    "id": 57,
+    "category": "Equity Investments",
+    "question": "The free-cash-flow-to-equity model:",
+    "options": {
+      "A": "excludes net borrowings.",
+      "B": "can be used to value non-dividend paying stocks.",
+      "C": "requires an estimate of future dividend payments."
+    },
+    "correctAnswer": "B",
+    "explanation": "Correct because FCFE models evaluate dividend-paying capacity rather than actual paid dividends, making them ideal for non-dividend paying stocks."
+  },
+  {
+    "id": 58,
+    "category": "Fixed Income",
+    "question": "If an investor buys a 5-year, 8% annual-pay bond for 96.11, the bond's yield-to-maturity is closest to:",
+    "options": {
+      "A": "7.33%.",
+      "B": "8.32%.",
+      "C": "9.00%."
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because using TVM calculator inputs: N = 5, PV = -96.11, PMT = 8, FV = 100 => I/Y = 9.00%."
+  },
+  {
+    "id": 59,
+    "category": "Portfolio Management",
+    "question": "In an investment policy statement, which of the following investment constraints most likely outlines a client's preference for environmentally sustainable investments?",
+    "options": {
+      "A": "Time horizon",
+      "B": "Unique circumstances",
+      "C": "Legal and regulatory factors"
+    },
+    "correctAnswer": "B",
+    "explanation": "Correct because ESG considerations and sustainability preferences are categorized under unique circumstances in the IPS."
+  },
+  {
+    "id": 60,
+    "category": "Equity Investments",
+    "question": "If the current share price is $60, a trader who wants to purchase the share at $58 or less will most likely place a:",
+    "options": {
+      "A": "limit order.",
+      "B": "market order.",
+      "C": "stop-buy order."
+    },
+    "correctAnswer": "A",
+    "explanation": "Correct because a limit order to buy sets a maximum acceptable price ceiling ($58)."
+  },
+  {
+    "id": 61,
+    "category": "Equity Investments",
+    "question": "Sponsored depository receipts are most likely subject to:",
+    "options": {
+      "A": "less reporting requirements than unsponsored ones.",
+      "B": "the same level of reporting requirements as unsponsored ones.",
+      "C": "greater reporting requirements than unsponsored ones."
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because sponsored DRs involve the issuing firm directly and require compliance with stricter regulatory disclosure rules."
+  },
+  {
+    "id": 62,
+    "category": "Portfolio Management",
+    "question": "Which of the following is best classified as a nonsystematic risk?",
+    "options": {
+      "A": "Political uncertainty",
+      "B": "Widespread natural disasters",
+      "C": "Bankruptcy of a major automobile producer"
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because the failure of a single auto manufacturer is company-specific risk that can be diversified away."
+  },
+  {
+    "id": 63,
+    "category": "Fixed Income",
+    "question": "Four years ago, a 5% coupon, annual-pay bond with a 10-year maturity was issued at par. If the current market discount rate is 7%, the price of the bond per 100 of par value is closest to:",
+    "options": {
+      "A": "90.34.",
+      "B": "90.47.",
+      "C": "93.23."
+    },
+    "correctAnswer": "B",
+    "explanation": "Correct because remaining maturity = 10 - 4 = 6 years. With N = 6, PMT = 5, FV = 100, I/Y = 7 => PV = 90.47."
+  },
+  {
+    "id": 64,
+    "category": "Fixed Income",
+    "question": "The price of a fixed-rate corporate bond with an annual modified duration of 7.15 increases from 92 to 97 per 100 of par value. If the government benchmark yield increases by 5 bps, the estimated decline in the spread over the benchmark yield is closest to:",
+    "options": {
+      "A": "71 bps.",
+      "B": "76 bps.",
+      "C": "81 bps."
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because %ΔP = (97 - 92) / 92 = +5.435%. ΔYTM = -5.435% / 7.15 = -0.760% (-76 bps). ΔSpread = ΔYTM - ΔBenchmark = -76 bps - 5 bps = -81 bps (a decline of 81 bps)."
+  },
+  {
+    "id": 65,
+    "category": "Fixed Income",
+    "question": "Commercial paper with a face value of $25,000,000 and a term of 120 days was issued 55 days ago. If the current market value is $24,855,000, the implied discount rate assuming a 360-day year is closest to:",
+    "options": {
+      "A": "3.21%.",
+      "B": "3.23%.",
+      "C": "3.80%."
+    },
+    "correctAnswer": "A",
+    "explanation": "Correct because remaining days = 120 - 55 = 65 days. Discount Rate = (360 / 65) × [($25,000,000 - $24,855,000) / $25,000,000] = 3.21%."
+  },
+  {
+    "id": 66,
+    "category": "Alternative Investments",
+    "question": "Beginning AUM = $100M, High-water mark = $110M, Return before fees = 20%, Mgmt fee = 1% on EOY AUM, Incentive fee = 10%, Hurdle rate = 5%. If incentive fees are based on returns in excess of the hurdle rate and calculated independent of mgmt fees, investor's net return for the year is:",
+    "options": {
+      "A": "17.30%.",
+      "B": "17.80%.",
+      "C": "18.35%."
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because EOY AUM before fees = $120M. Management fee = 1% × $120M = $1.2M. Incentive fee = 10% × [$120M - $110M × 1.05] = 10% × [$120M - $115.5M] = $0.45M. Net Return = ($120M - $1.2M - $0.45M - $100M) / $100M = 18.35%."
+  },
+  {
+    "id": 67,
+    "category": "Portfolio Management",
+    "question": "The capital allocation line is best described as combinations of a risky portfolio and the:",
+    "options": {
+      "A": "risk-free asset.",
+      "B": "market portfolio.",
+      "C": "minimum variance portfolio."
+    },
+    "correctAnswer": "A",
+    "explanation": "Correct because the CAL plots returns of combinations of the risk-free asset and an optimal risky portfolio."
+  },
+  {
+    "id": 68,
+    "category": "Alternative Investments",
+    "question": "Which of the following most likely provides the greatest redemption flexibility?",
+    "options": {
+      "A": "Hedge funds",
+      "B": "Private equity funds",
+      "C": "Funds of hedge funds"
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because funds of hedge funds maintain cash reserves and special redemption terms that provide investors more flexibility than direct hedge funds or private equity."
+  },
+  {
+    "id": 69,
+    "category": "Alternative Investments",
+    "question": "AUM Yr 1 start = $100M, Yr 1 end = $125M, Yr 2 end = $110M. Mgmt fee = 2% on EOY AUM, Performance fee = 20% above HWM. The cumulative fee (in $ millions) earned by the hedge fund manager for the two years is closest to:",
+    "options": {
+      "A": "5.2.",
+      "B": "7.2.",
+      "C": "9.2."
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because Year 1 Mgmt Fee = 2% × $125M = $2.5M. Year 1 Perf Fee = 20% × ($125M - $2.5M - $100M) = $4.5M. High-water mark = $118M. Year 2 Mgmt Fee = 2% × $110M = $2.2M. Year 2 Perf Fee = $0. Total = $2.5M + $4.5M + $2.2M = $9.2M."
+  },
+  {
+    "id": 70,
+    "category": "Equity Investments",
+    "question": "All else being equal, if a company declares a dividend of $1 per share, the company's share price is most likely to decrease by $1 on the:",
+    "options": {
+      "A": "declaration date.",
+      "B": "ex-dividend date.",
+      "C": "holder-of-record date."
+    },
+    "correctAnswer": "B",
+    "explanation": "Correct because on the ex-dividend date, buyers no longer acquire the right to the upcoming dividend, driving the share price down by the dividend amount."
+  },
+  {
+    "id": 71,
+    "category": "Derivatives",
+    "question": "A call option with an exercise price of $38 was bought for $3. The price of the underlying increases from $42 to $47. At expiration, the payoff to the call buyer is equal to:",
+    "options": {
+      "A": "$4.",
+      "B": "$6.",
+      "C": "$9."
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because Call Payoff = Max(0, ST - X) = Max(0, $47 - $38) = $9. (Profit = $9 - $3 = $6)."
+  },
+  {
+    "id": 72,
+    "category": "Derivatives",
+    "question": "Arbitrage is best described as an opportunity to earn:",
+    "options": {
+      "A": "risk-free returns with no investment capital.",
+      "B": "risk-free returns with large amounts of investment capital.",
+      "C": "abnormal returns applying an absolute valuation methodology."
+    },
+    "correctAnswer": "A",
+    "explanation": "Correct because pure arbitrage yields risk-free returns without committing capital."
+  },
+  {
+    "id": 73,
+    "category": "Fixed Income",
+    "question": "In the event of a default, which of the following mortgage structures exposes a lender to the greatest risk of loss?",
+    "options": {
+      "A": "Interest-only, recourse loan",
+      "B": "Fully amortizing, recourse loan",
+      "C": "Balloon payment, non-recourse loan"
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because non-recourse loans prevent recovery against borrower personal assets, and balloon payments leave a high unpaid principal balance."
+  },
+  {
+    "id": 74,
+    "category": "Derivatives",
+    "question": "Contracts entered into at one point in time that require both parties to engage in a transaction at a later point in time on terms agreed upon at the start are called:",
+    "options": {
+      "A": "options contracts.",
+      "B": "contingent claims.",
+      "C": "forward commitments."
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because forward commitments legally bind both counterparties to fulfill the transaction at expiration."
+  },
+  {
+    "id": 75,
+    "category": "Derivatives",
+    "question": "A holder of a put option is best described as having a:",
+    "options": {
+      "A": "short exposure to the option contract.",
+      "B": "long exposure to the underlying instrument.",
+      "C": "short exposure to the underlying instrument."
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because the holder of a put option gains when the underlying asset falls, creating a short exposure to the underlying."
+  },
+  {
+    "id": 76,
+    "category": "Portfolio Management",
+    "question": "A risk-neutral investor most likely seeks to maximize:",
+    "options": {
+      "A": "both risk and return.",
+      "B": "return irrespective of risk.",
+      "C": "return for a given level of risk."
+    },
+    "correctAnswer": "B",
+    "explanation": "Correct because a risk-neutral investor focuses entirely on maximizing expected return regardless of risk."
+  },
+  {
+    "id": 77,
+    "category": "Corporate Issuers",
+    "question": "Pricing power is most likely lowest in markets characterized by:",
+    "options": {
+      "A": "strong customer loyalty.",
+      "B": "high barriers to firm entry.",
+      "C": "low switching costs for customers."
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because low switching costs allow customers to easily switch to competitors, limiting pricing power."
+  },
+  {
+    "id": 78,
+    "category": "Derivatives",
+    "question": "The value of a European call option is inversely related:",
+    "options": {
+      "A": "only to the risk-free interest rate.",
+      "B": "only to the dividends paid by the underlying stock.",
+      "C": "both to the risk-free interest rate and to the dividends paid by the underlying stock."
+    },
+    "correctAnswer": "B",
+    "explanation": "Correct because expected cash dividends reduce the growth rate of the underlying stock, lowering European call option values."
+  },
+  {
+    "id": 79,
+    "category": "Portfolio Management",
+    "question": "In which of the following stages of the enterprise risk management process will a company's board most likely identify shortfalls within the company that would cause it to fail to achieve critical goals? When:",
+    "options": {
+      "A": "monitoring and mitigating risk",
+      "B": "making the risk tolerance decision",
+      "C": "allocating capital to risky activities"
+    },
+    "correctAnswer": "B",
+    "explanation": "Correct because determining organizational risk tolerance starts with an internal assessment of shortfalls that could cause failure in achieving critical goals."
+  },
+  {
+    "id": 80,
+    "category": "Fixed Income",
+    "question": "The underlying assets of an asset-backed security are directly owned by the:",
+    "options": {
+      "A": "originator.",
+      "B": "special purpose vehicle.",
+      "C": "investors in the asset-backed securities."
+    },
+    "correctAnswer": "B",
+    "explanation": "Correct because securitization transfers ownership of the underlying assets from the originator to the Special Purpose Vehicle (SPV)."
+  },
+  {
+    "id": 81,
+    "category": "Equity Investments",
+    "question": "The earnings multiplier for a stock increases with a decrease in the:",
+    "options": {
+      "A": "expected dividend growth rate.",
+      "B": "expected dividend payout ratio.",
+      "C": "estimated required rate of return on equity."
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because P0/E1 = (D1/E1) / (r - g). A decrease in required return r decreases the denominator, increasing P/E."
+  },
+  {
+    "id": 82,
+    "category": "Portfolio Management",
+    "question": "With respect to portfolio construction, combining long-term capital market expectations with the objectives and constraints from the investment policy statement determines a portfolio's:",
+    "options": {
+      "A": "security selection.",
+      "B": "tactical asset allocation.",
+      "C": "strategic asset allocation."
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because strategic asset allocation balances long-term capital market expectations with client IPS constraints and goals."
+  },
+  {
+    "id": 83,
+    "category": "Corporate Issuers",
+    "question": "The central bank funds market is most likely used by:",
+    "options": {
+      "A": "central banks looking to obtain short-term funding.",
+      "B": "lenders of last resort to transfer funds between each other.",
+      "C": "banks to manage the imbalances in their required reserves."
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because commercial banks borrow and lend excess reserves in the central bank funds market to satisfy reserve requirements."
+  },
+  {
+    "id": 84,
+    "category": "Derivatives",
+    "question": "Consider a put option selling for $4 in which the exercise price is $58. What is the profit for a put buyer if the price of the underlying at expiration is $57?",
+    "options": {
+      "A": "-$3",
+      "B": "$1",
+      "C": "$3"
+    },
+    "correctAnswer": "A",
+    "explanation": "Correct because Value at Expiration = Max(0, $58 - $57) = $1. Profit = $1 - $4 = -$3."
+  },
+  {
+    "id": 85,
+    "category": "Portfolio Management",
+    "question": "In an equally weighted portfolio of many assets, an increase in the correlation between the assets' returns most likely decreases the portfolio's:",
+    "options": {
+      "A": "overall risk.",
+      "B": "expected return.",
+      "C": "diversification benefit."
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because higher correlation among asset returns degrades the diversification benefits."
+  },
+  {
+    "id": 86,
+    "category": "Fixed Income",
+    "question": "Which of the following is most likely considered an affirmative covenant?",
+    "options": {
+      "A": "A minimum interest coverage ratio",
+      "B": "A limit on the level of share buybacks",
+      "C": "What the issuer will do with the proceeds of a bond issue"
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because affirmative covenants state required actions, such as specifying how bond proceeds will be utilized."
+  },
+  {
+    "id": 87,
+    "category": "Equity Investments",
+    "question": "An investor purchased shares on margin at €50 per share using a leverage ratio of 2.0. If the shares are sold for €70 per share, the return on the investor's equity investment is:",
+    "options": {
+      "A": "40%.",
+      "B": "80%.",
+      "C": "180%."
+    },
+    "correctAnswer": "B",
+    "explanation": "Correct because price return = (€70 - €50) / €50 = 40%. Return on equity = 40% × 2.0 leverage = 80%."
+  },
+  {
+    "id": 88,
+    "category": "Equity Investments",
+    "question": "Bid/Ask order book: CHF 42.56 (Bid 2,000), 42.52 (Bid 4,000), 42.44 (Bid 7,100), 42.42 (Bid 5,000). She receives an order to sell 9,000 shares with a limit price of CHF 42.52. The average price (in CHF) at which the trades will be executed is closest to:",
+    "options": {
+      "A": "42.52.",
+      "B": "42.50.",
+      "C": "42.53."
+    },
+    "correctAnswer": "C",
+    "explanation": "Correct because only 6,000 shares can fill at or above the CHF 42.52 limit price (2,000 @ 42.56 and 4,000 @ 42.52). Average price = (2,000 × 42.56 + 4,000 × 42.52) / 6,000 = CHF 42.53."
+  },
+  {
+    "id": 89,
+    "category": "Portfolio Management",
+    "question": "The two-fund separation theorem states that all investors will hold a combination of the:",
+    "options": {
+      "A": "risk-free asset and the optimal risky portfolio.",
+      "B": "risk-free asset and the global minimum-variance portfolio.",
+      "C": "optimal risky portfolio and the global minimum-variance portfolio."
+    },
+    "correctAnswer": "A",
+    "explanation": "Correct because two-fund separation asserts that all investors combine the risk-free asset and the optimal portfolio of risky assets."
+  },
+  {
+    "id": 90,
+    "category": "Portfolio Management",
+    "question": "With respect to an investment policy statement, a maximum acceptable level of tracking risk is best described as a(n):",
+    "options": {
+      "A": "relative risk objective.",
+      "B": "absolute risk objective.",
+      "C": "systematic risk objective."
+    },
+    "correctAnswer": "A",
+    "explanation": "Correct because tracking risk measures standard deviation of excess returns relative to a benchmark index (a relative risk objective)."
+  }
+]

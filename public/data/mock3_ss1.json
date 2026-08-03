@@ -1,0 +1,1082 @@
+[
+  {
+    "id": 1,
+    "category": "Ethical and Professional Standards",
+    "question": "Which of the following is a violation according to the Standard relating to preservation of confidentiality?",
+    "options": {
+      "A": "Members share details relating to former clients with third party service providers",
+      "B": "Members convey to clients that not all firm-sponsored resources may be appropriate for communicating confidential information",
+      "C": "When allowed under the law, members share confidential client information to defend themselves in an investigation by the CFA Institute Professional Conduct Program"
+    },
+    "correctAnswer": "A",
+    "explanation": "Members share details relating to former clients with third party service providers"
+  },
+  {
+    "id": 2,
+    "category": "Ethical and Professional Standards",
+    "question": "Which of the following is most accurate according to the Standard relating to knowledge of the law? Members are required to:",
+    "options": {
+      "A": "dissociate from client activities they believe are unethical.",
+      "B": "have detailed knowledge of all the laws that could potentially govern their activities.",
+      "C": "report potential violations of the Code and Standards committed by fellow members to the CFA Institute Professional Conduct Program."
+    },
+    "correctAnswer": "A",
+    "explanation": "dissociate from client activities they believe are unethical."
+  },
+  {
+    "id": 3,
+    "category": "Ethical and Professional Standards",
+    "question": "Robert Dowling, CFA, is part of a research team. Dowling's team has recommended a \"buy\" rating on a company, but Dowling does not agree with the recommendation. To comply with the Standard relating to diligence and reasonable basis, Dowling:",
+    "options": {
+      "A": "must decline to be identified with the report.",
+      "B": "must ensure that the report reflects his opinion.",
+      "C": "may continue to be identified with the report as long as the recommendation has a reasonable basis."
+    },
+    "correctAnswer": "C",
+    "explanation": "may continue to be identified with the report as long as the recommendation has a reasonable basis."
+  },
+  {
+    "id": 4,
+    "category": "Ethical and Professional Standards",
+    "question": "Daniel Morgan is a Level III candidate in the CFA Program. After taking the exam, Morgan signs into a CFA-candidate-only Internet forum and writes a post expressing the opinion that the CFA Program and examination policies are unfair. Has Morgan most likely violated the Standards?",
+    "options": {
+      "A": "No.",
+      "B": "Yes, by providing confidential program information.",
+      "C": "Yes, by compromising the reputation of CFA Institute."
+    },
+    "correctAnswer": "A",
+    "explanation": "No."
+  },
+  {
+    "id": 5,
+    "category": "Ethical and Professional Standards",
+    "question": "Which of the following is a recommended procedure for members to meet their obligations under the Standard relating to performance presentation?",
+    "options": {
+      "A": "Members should use a single representative account for each investment mandate while presenting performance history",
+      "B": "Members should consider the knowledge and sophistication of the audience to whom the performance history is being presented",
+      "C": "Members should exclude terminated accounts while presenting performance history with an indication of when the accounts were terminated"
+    },
+    "correctAnswer": "B",
+    "explanation": "Members should consider the knowledge and sophistication of the audience to whom the performance history is being presented"
+  },
+  {
+    "id": 6,
+    "category": "Ethical and Professional Standards",
+    "question": "According to the Standard relating to loyalty, prudence, and care, members are most likely required to:",
+    "options": {
+      "A": "vote all proxies on behalf of clients even if some proxies offer no direct client benefit.",
+      "B": "avoid the use of soft dollars unless the services purchased have corresponding benefit for the client.",
+      "C": "consider each investment based solely on its characteristics, independently of other portfolio assets."
+    },
+    "correctAnswer": "B",
+    "explanation": "avoid the use of soft dollars unless the services purchased have corresponding benefit for the client."
+  },
+  {
+    "id": 7,
+    "category": "Ethical and Professional Standards",
+    "question": "According to the GIPS standards, compliance may be claimed only:",
+    "options": {
+      "A": "after verification has been performed.",
+      "B": "if the firm is compliant on a firm-wide basis.",
+      "C": "with respect to specific composites and not to individual portfolios."
+    },
+    "correctAnswer": "B",
+    "explanation": "if the firm is compliant on a firm-wide basis."
+  },
+  {
+    "id": 8,
+    "category": "Ethical and Professional Standards",
+    "question": "According to the Standard relating to additional compensation agreements, a member is required to obtain permission from her employer before accepting benefits from third parties:",
+    "options": {
+      "A": "only for services rendered to her employer.",
+      "B": "only for services that might create a conflict with her employer's interest.",
+      "C": "both for services rendered to her employer and for services that might create a conflict with her employer's interest."
+    },
+    "correctAnswer": "C",
+    "explanation": "both for services rendered to her employer and for services that might create a conflict with her employer's interest."
+  },
+  {
+    "id": 9,
+    "category": "Ethical and Professional Standards",
+    "question": "Diana Fairbanks, CFA, is married to an auditor who is employed at a large accounting firm. When her husband mentions that a computer firm he audits will receive a qualified opinion she thinks nothing of it. Later that week when she reviews a new client account she notices that there are substantial holdings of this computer firm. When she does a thorough internet search for news on the company, she does not find anything about its most recent audit or any other adverse information. Which of the following actions concerning the computer stock should Fairbanks most likely take to avoid violating the CFA Institute Standards of Professional Conduct?",
+    "options": {
+      "A": "Take no investment action",
+      "B": "Complete a thorough and diligent analysis of the company and then sell the stock",
+      "C": "Sell the stock immediately as she has a reasonable basis for taking this investment action"
+    },
+    "correctAnswer": "A",
+    "explanation": "Take no investment action"
+  },
+  {
+    "id": 10,
+    "category": "Ethical and Professional Standards",
+    "question": "If a member self-discloses a matter that questions his professional conduct in his annual statement to the CFA Institute, an initial investigation is conducted by the:",
+    "options": {
+      "A": "Standard of Practice Council.",
+      "B": "Disciplinary Review Committee.",
+      "C": "Professional Conduct Program staff."
+    },
+    "correctAnswer": "C",
+    "explanation": "Professional Conduct Program staff."
+  },
+  {
+    "id": 11,
+    "category": "Ethical and Professional Standards",
+    "question": "A firm manages $500 million in large-cap equity portfolios. Of this, non-fee-paying portfolios amount to $50 million, and fee-paying non-discretionary portfolios total $75 million. To be compliant with the GIPS standards, the firm must present the value of its large-cap composite as:",
+    "options": {
+      "A": "$375 million.",
+      "B": "$425 million.",
+      "C": "$450 million."
+    },
+    "correctAnswer": "A",
+    "explanation": "$375 million."
+  },
+  {
+    "id": 12,
+    "category": "Ethical and Professional Standards",
+    "question": "Which of the following is among the recommended procedures for compliance with the Standard relating to misconduct?\r\n\r\nProcedure 1: Disseminate to all employees a list of past violations together with disciplinary actions.\r\n\r\nProcedure 2: Check references of potential employees to ensure that they are of good character.",
+    "options": {
+      "A": "Procedure 1 only",
+      "B": "Procedure 2 only",
+      "C": "Both Procedure 1 and Procedure 2"
+    },
+    "correctAnswer": "B",
+    "explanation": "Procedure 2 only"
+  },
+  {
+    "id": 13,
+    "category": "Ethical and Professional Standards",
+    "question": "A member is developing allocation procedures for block trades and new issues. According to the recommended procedures for compliance with the Standard relating to fair dealing, the member's allocation procedures should involve:",
+    "options": {
+      "A": "prohibiting consideration of advanced interest when allocating trades for new issues.",
+      "B": "bundling orders on a first-in, first-out basis for efficiency as appropriate for the asset class.",
+      "C": "giving client accounts participating in a block trade, execution prices corresponding to order arrival time."
+    },
+    "correctAnswer": "B",
+    "explanation": "bundling orders on a first-in, first-out basis for efficiency as appropriate for the asset class."
+  },
+  {
+    "id": 14,
+    "category": "Ethical and Professional Standards",
+    "question": "Ming Mei Xu, CFA, who is a well-known analyst issues a buy recommendation on a small-cap stock. Xu shares her recommendation with the public two days after communicating the recommendation with her clients. The public dissemination leads to a significant increase in the stock price. Trevor Thomas, CFA, one of Xu's clients, buys a large position in the stock. Thomas sells the entire position for a profit a month later. His action leads to a significant decline in the stock price. Has the Standard relating to market manipulation been violated?",
+    "options": {
+      "A": "No",
+      "B": "Yes, by Xu",
+      "C": "Yes, by Thomas"
+    },
+    "correctAnswer": "A",
+    "explanation": "Correct answer is (A) No."
+  },
+  {
+    "id": 15,
+    "category": "Ethical and Professional Standards",
+    "question": "Michael Pak has recently retired from the investment business. A CFA Institute member for 20 years, Pak has decided not to pay his CFA Institute dues or file the annual Professional Conduct Statement. Applying to join the investment committee of a charitable organization, Pak writes: \"I was a CFA Institute member for 20 years.\" Has Pak most likely violated the Standards?",
+    "options": {
+      "A": "No",
+      "B": "Yes, the Standard relating to conduct as participants in CFA Institute programs",
+      "C": "Yes, the Standard relating to reference to CFA Institute, the CFA designation, and the CFA Program"
+    },
+    "correctAnswer": "A",
+    "explanation": "Correct answer is (A) No."
+  },
+  {
+    "id": 16,
+    "category": "Ethical and Professional Standards",
+    "question": "According to the Standard relating to loyalty, members must:",
+    "options": {
+      "A": "subordinate any personal obligations to their work.",
+      "B": "place the interests of their employer below the interests of clients.",
+      "C": "refrain from entering into an independent business while still employed."
+    },
+    "correctAnswer": "B",
+    "explanation": "place the interests of their employer below the interests of clients."
+  },
+  {
+    "id": 17,
+    "category": "Ethical and Professional Standards",
+    "question": "Yun Hae, CFA, is a portfolio manager at Citadel Capital (CC). Hae's brother maintains a fee-paying retirement account at CC. Hae has no beneficial ownership in her brother's account. Whenever an IPO becomes available that is suitable for her clients, Hae first allocates shares to other clients before placing any remaining shares in her brother's account. She adopts this procedure to avoid potential conflicts of interest. Hae's actions violate the Standard(s) relating:",
+    "options": {
+      "A": "only to fair dealing.",
+      "B": "only to priority of transactions.",
+      "C": "both to fair dealing and to priority of transactions."
+    },
+    "correctAnswer": "C",
+    "explanation": "both to fair dealing and to priority of transactions."
+  },
+  {
+    "id": 18,
+    "category": "Ethical and Professional Standards",
+    "question": "To claim compliance with the GIPS standards, a firm that has been in existence for two years must:",
+    "options": {
+      "A": "wait one year to present three years of GIPS-compliant performance.",
+      "B": "wait three years to present five years of GIPS-compliant performance.",
+      "C": "initially present GIPS-compliant performance since the firm's inception date."
+    },
+    "correctAnswer": "C",
+    "explanation": "initially present GIPS-compliant performance since the firm's inception date."
+  },
+  {
+    "id": 19,
+    "category": "Ethical and Professional Standards",
+    "question": "Which of the following is consistent with the recommended procedures for compliance with the Standard relating to referral fees?\r\n\r\nStatement 1: \"Investment professionals should provide to their clients notification of approved referral fee programs.\"\r\n\r\nStatement 2: \"Members should provide their employer at least annual updates on the amount and nature of compensation received.\"",
+    "options": {
+      "A": "Statement 1 only",
+      "B": "Statement 2 only",
+      "C": "Both Statement 1 and Statement 2"
+    },
+    "correctAnswer": "A",
+    "explanation": "Statement 1 only"
+  },
+  {
+    "id": 20,
+    "category": "Ethical and Professional Standards",
+    "question": "Which of the following is a recommended procedure for compliance with the Standard relating to responsibilities of supervisors? Members should encourage their firms to:",
+    "options": {
+      "A": "adopt a code of ethics that addresses general fiduciary concepts.",
+      "B": "provide the firm's clients with a copy of detailed compliance procedures.",
+      "C": "commingle the firm's code of ethics with its detailed compliance procedures."
+    },
+    "correctAnswer": "A",
+    "explanation": "adopt a code of ethics that addresses general fiduciary concepts."
+  },
+  {
+    "id": 21,
+    "category": "Ethical and Professional Standards",
+    "question": "Which of the following claims can an asset management firm most likely make regarding the GIPS standards?",
+    "options": {
+      "A": "Claim GIPS compliance using the GIPS Compliance Statement",
+      "B": "State that the firm will achieve GIPS compliance by a future date",
+      "C": "Claim partial GIPS compliance with details on areas of non-compliance"
+    },
+    "correctAnswer": "A",
+    "explanation": "Claim GIPS compliance using the GIPS Compliance Statement"
+  },
+  {
+    "id": 22,
+    "category": "Ethical and Professional Standards",
+    "question": "According to the Standard relating to suitability, a member should update a client's Investment Policy Statement at least:",
+    "options": {
+      "A": "quarterly.",
+      "B": "semiannually.",
+      "C": "annually."
+    },
+    "correctAnswer": "C",
+    "explanation": "annually."
+  },
+  {
+    "id": 23,
+    "category": "Ethical and Professional Standards",
+    "question": "Ann Collins, CFA, manages a fund for Kreet Investments (KI). KI provides a retirement plan for employees offering a choice of ten large diversified mutual funds. The choices include two funds managed by KI employees. Collins changes her personal investment allocation to the two funds managed by her colleagues without disclosing the change to KI or to her clients. Has Collins violated the Standard relating to avoid or disclose conflicts?",
+    "options": {
+      "A": "No",
+      "B": "Yes, by failing to disclose the allocation change to KI",
+      "C": "Yes, by failing to disclose the allocation change to her clients"
+    },
+    "correctAnswer": "A",
+    "explanation": "Correct answer is (A) No."
+  },
+  {
+    "id": 24,
+    "category": "Ethical and Professional Standards",
+    "question": "John Clark, CFA, starts a new job and re-creates a research report on a company he covered at his previous employer. He uses information gathered directly from the covered company. He also uses his personal notes taken while working at his previous employer. Has Clark violated the Standard relating to record retention?",
+    "options": {
+      "A": "No",
+      "B": "Yes, because he uses information he gathered directly from the covered company",
+      "C": "Yes, because he uses his personal notes taken while working at his previous employer"
+    },
+    "correctAnswer": "C",
+    "explanation": "Yes, because he uses his personal notes taken while working at his previous employer"
+  },
+  {
+    "id": 25,
+    "category": "Ethical and Professional Standards",
+    "question": "According to the Standard relating to misrepresentation, a member is most likely required to:",
+    "options": {
+      "A": "disclose his intended use of an external manager.",
+      "B": "always provide a benchmark for investment strategies.",
+      "C": "provide attribution to a member who is no longer with the firm when issuing a report."
+    },
+    "correctAnswer": "A",
+    "explanation": "disclose his intended use of an external manager."
+  },
+  {
+    "id": 26,
+    "category": "Ethical and Professional Standards",
+    "question": "With respect to issuer-paid research, members are not required to:",
+    "options": {
+      "A": "strictly limit the type of compensation they accept from the covered company.",
+      "B": "fully disclose the nature of compensation received from the covered company.",
+      "C": "accept compensation related only to investment performance of the covered company."
+    },
+    "correctAnswer": "C",
+    "explanation": "accept compensation related only to investment performance of the covered company."
+  },
+  {
+    "id": 27,
+    "category": "Ethical and Professional Standards",
+    "question": "Joanne Rosewood, CFA, replaces one of the third-party advisers she uses to manage her clients' portfolios with an internal investment strategy. Rosewood does not notify her clients because there is no change in the portfolios' investment style. Rosewood has most likely violated the Standard relating to:",
+    "options": {
+      "A": "avoid or disclose conflicts.",
+      "B": "loyalty, prudence, and care.",
+      "C": "communication with clients and prospective clients."
+    },
+    "correctAnswer": "A",
+    "explanation": "communication with clients and prospective clients."
+  },
+  {
+    "id": 28,
+    "category": "Economics",
+    "question": "For a non-colluding oligopoly in a price war market, competitors are most likely to:",
+    "options": {
+      "A": "match a rival's price reduction and ignore a rival's price increase.",
+      "B": "ignore a rival's price reduction and match a rival's price increase.",
+      "C": "match both a rival's price reduction as well as a rival's price increase."
+    },
+    "correctAnswer": "A",
+    "explanation": "match a rival's price reduction and ignore a rival's price increase."
+  },
+  {
+    "id": 29,
+    "category": "Economics",
+    "question": "Which of the following sampling methods involves selecting every kth member from a population until a desired sample size is obtained?",
+    "options": {
+      "A": "Cluster sampling",
+      "B": "Systematic sampling",
+      "C": "Convenience sampling"
+    },
+    "correctAnswer": "B",
+    "explanation": "Systematic sampling"
+  },
+  {
+    "id": 30,
+    "category": "Economics",
+    "question": "In the year of a change in accounting policy, comparability of the presented financial statements is best with:",
+    "options": {
+      "A": "prospective application.",
+      "B": "retrospective application.",
+      "C": "modified retrospective application."
+    },
+    "correctAnswer": "B",
+    "explanation": "retrospective application."
+  },
+  {
+    "id": 31,
+    "category": "Economics",
+    "question": "An analyst calculates a portfolio's target semideviation of returns over twelve consecutive months, including seven months of below-target returns. The sum of the squared deviations below the target is 42%^2. The target semideviation is closest to:",
+    "options": {
+      "A": "1.87%.",
+      "B": "1.95%.",
+      "C": "2.65%."
+    },
+    "correctAnswer": "B",
+    "explanation": "1.95%."
+  },
+  {
+    "id": 32,
+    "category": "Economics",
+    "question": "Which of the following mature companies is most likely to use the greatest amount of leverage in its capital structure?",
+    "options": {
+      "A": "Mining company",
+      "B": "Software company",
+      "C": "Shipping company"
+    },
+    "correctAnswer": "C",
+    "explanation": "Shipping company"
+  },
+  {
+    "id": 33,
+    "category": "Economics",
+    "question": "Which of the following statements about company stakeholders is most accurate?",
+    "options": {
+      "A": "Debtholders tend to prefer that a company raise more equity",
+      "B": "Shareholder–debtholder conflict is greater for short-term creditors",
+      "C": "Shareholders are more likely than debtholders to impose contractual limits on leverage"
+    },
+    "correctAnswer": "A",
+    "explanation": "Debtholders tend to prefer that a company raise more equity"
+  },
+  {
+    "id": 34,
+    "category": "Economics",
+    "question": "Which of the following market structures most likely has the greatest elasticity of demand?",
+    "options": {
+      "A": "Oligopoly",
+      "B": "Perfect competition",
+      "C": "Monopolistic competition"
+    },
+    "correctAnswer": "B",
+    "explanation": "Perfect competition"
+  },
+  {
+    "id": 35,
+    "category": "Economics",
+    "question": "Which of the following is an assumption of Modigliani and Miller's propositions regarding capital structure?",
+    "options": {
+      "A": "Investors have homogeneous expectations",
+      "B": "Investors can borrow and lend at a zero interest rate",
+      "C": "Financing decisions depend on investment decisions"
+    },
+    "correctAnswer": "A",
+    "explanation": "Investors have homogeneous expectations"
+  },
+  {
+    "id": 36,
+    "category": "Economics",
+    "question": "In geopolitics, cabotage is best described as a:",
+    "options": {
+      "A": "financial tool.",
+      "B": "multi-tool approach.",
+      "C": "national security tool."
+    },
+    "correctAnswer": "B",
+    "explanation": "multi-tool approach."
+  },
+  {
+    "id": 37,
+    "category": "Economics",
+    "question": "A policy rate that is neutral will become contractionary if trend growth:",
+    "options": {
+      "A": "increases and expected inflation increases.",
+      "B": "decreases and expected inflation remains the same.",
+      "C": "decreases and expected inflation increases by the same amount."
+    },
+    "correctAnswer": "B",
+    "explanation": "decreases and expected inflation remains the same."
+  },
+  {
+    "id": 38,
+    "category": "Quantitative Methods",
+    "question": "An analyst gathers the following information (in € millions) about a company's 3-year construction contract:\r\n\r\nItem\tAmount (€ millions)\r\nContract price\t108\r\nExpected total costs\t70\r\nActual costs incurred in Year 1\t28\r\nBonus for on-time completion\t6\r\nCosts are an appropriate measure of progress toward completion. The construction company has only limited experience with similar contracts and knows that many factors outside its control could cause delay. Assuming it is highly probable that revenue will not be subsequently reversed, revenue (in € millions) recognized in Year 1 is most likely:",
+    "options": {
+      "A": "0.",
+      "B": "43.2.",
+      "C": "45.6."
+    },
+    "correctAnswer": "B",
+    "explanation": "43.2."
+  },
+  {
+    "id": 39,
+    "category": "Quantitative Methods",
+    "question": "The amount of time that elapses from the point when a company invests in working capital until the point at which the company collects cash is:",
+    "options": {
+      "A": "net operating cycle.",
+      "B": "defensive interval ratio.",
+      "C": "number of days of sales outstanding."
+    },
+    "correctAnswer": "A",
+    "explanation": "net operating cycle."
+  },
+  {
+    "id": 40,
+    "category": "Quantitative Methods",
+    "question": "In the recovery phase of the business cycle, the economy is most likely:",
+    "options": {
+      "A": "enjoying an upswing and a positive output gap opens.",
+      "B": "going through a trough and a positive output gap opens.",
+      "C": "going through a trough and a negative output gap starts to narrow."
+    },
+    "correctAnswer": "C",
+    "explanation": "going through a trough and a negative output gap starts to narrow."
+  },
+  {
+    "id": 41,
+    "category": "Quantitative Methods",
+    "question": "In periods of rising prices and increasing inventory quantities, using the last-in, first-out (LIFO) inventory valuation method instead of the first-in, first-out (FIFO) inventory valuation method most likely increases:",
+    "options": {
+      "A": "total assets.",
+      "B": "cost of goods sold.",
+      "C": "days of inventory on hand."
+    },
+    "correctAnswer": "B",
+    "explanation": "cost of goods sold."
+  },
+  {
+    "id": 42,
+    "category": "Quantitative Methods",
+    "question": "Risks associated with supplier relationships are typically mitigated through:",
+    "options": {
+      "A": "contracts.",
+      "B": "regulation.",
+      "C": "board representation."
+    },
+    "correctAnswer": "A",
+    "explanation": "contracts."
+  },
+  {
+    "id": 43,
+    "category": "Quantitative Methods",
+    "question": "An increase in utility for a company's products as these products become more widely adopted best describes:",
+    "options": {
+      "A": "network effects.",
+      "B": "operating leverage.",
+      "C": "product differentiation."
+    },
+    "correctAnswer": "A",
+    "explanation": "network effects."
+  },
+  {
+    "id": 44,
+    "category": "Quantitative Methods",
+    "question": "If inventory that was written down in a previous reporting period subsequently increases in value, the amount of the original write-down can be reversed under:",
+    "options": {
+      "A": "IFRS only.",
+      "B": "US GAAP only.",
+      "C": "both IFRS and US GAAP."
+    },
+    "correctAnswer": "A",
+    "explanation": "IFRS only."
+  },
+  {
+    "id": 45,
+    "category": "Quantitative Methods",
+    "question": "A cooperative country is most likely to have characteristics of both:",
+    "options": {
+      "A": "technology exchange and retaliation.",
+      "B": "rules standardization and reciprocation.",
+      "C": "harmonization of tariffs and arbitrary rules."
+    },
+    "correctAnswer": "B",
+    "explanation": "rules standardization and reciprocation."
+  },
+  {
+    "id": 46,
+    "category": "Quantitative Methods",
+    "question": "All else being equal, if interest expense is not tax deductible, as a company's marginal tax rate increases, the company's WACC:",
+    "options": {
+      "A": "decreases.",
+      "B": "remains the same.",
+      "C": "increases."
+    },
+    "correctAnswer": "A",
+    "explanation": "remains the same."
+  },
+  {
+    "id": 47,
+    "category": "Quantitative Methods",
+    "question": "Consider the following 20 items listed in ascending order: -41, -18, -17, -9, -8, -6, -5, 3, 3, 3, 5, 5, 7, 7, 11, 12, 20, 21, 21, 61\r\n\r\nThe median value of the items is closest to:",
+    "options": {
+      "A": "3.",
+      "B": "4.",
+      "C": "5."
+    },
+    "correctAnswer": "B",
+    "explanation": "Correct answer is (B) 4.."
+  },
+  {
+    "id": 48,
+    "category": "Financial Statement Analysis",
+    "question": "A company is forecasting 10% organic growth in revenues. The company believes sales volume will grow by 6.4%. The forecasted price/mix impact for the company is closest to:",
+    "options": {
+      "A": "3.4%.",
+      "B": "17.0%.",
+      "C": "56.3%"
+    },
+    "correctAnswer": "A",
+    "explanation": "3.4%."
+  },
+  {
+    "id": 49,
+    "category": "Financial Statement Analysis",
+    "question": "The term Big Data refers to:",
+    "options": {
+      "A": "structured data only.",
+      "B": "unstructured data only.",
+      "C": "both structured and unstructured data."
+    },
+    "correctAnswer": "C",
+    "explanation": "both structured and unstructured data."
+  },
+  {
+    "id": 50,
+    "category": "Financial Statement Analysis",
+    "question": "Which of the following best describes the link between the cash flow statement and the balance sheet?",
+    "options": {
+      "A": "The cash flow statement reconciles changes in all accounts on the balance sheet",
+      "B": "The statement's investing activities section reconciles the changes in current assets on the balance sheet",
+      "C": "The cash flow statement reconciles the beginning and ending balances of cash reported on the balance sheet"
+    },
+    "correctAnswer": "C",
+    "explanation": "The cash flow statement reconciles the beginning and ending balances of cash reported on the balance sheet"
+  },
+  {
+    "id": 51,
+    "category": "Financial Statement Analysis",
+    "question": "Assuming its trading partner does not retaliate, which of the following conditions must hold in order for a large country to increase its national welfare by imposing a tariff?",
+    "options": {
+      "A": "It must have a comparative advantage in the production of the imported good",
+      "B": "The deadweight loss must be smaller than the benefit of its improving terms of trade",
+      "C": "It must auction the import licenses for a fee to offset the decline in the consumer surplus"
+    },
+    "correctAnswer": "B",
+    "explanation": "The deadweight loss must be smaller than the benefit of its improving terms of trade"
+  },
+  {
+    "id": 52,
+    "category": "Financial Statement Analysis",
+    "question": "An analyst estimates the probabilities of three possible economic scenarios and the probabilities of a stock having a positive or a negative return in each scenario. These scenarios are best represented by a:",
+    "options": {
+      "A": "tree-map.",
+      "B": "tree diagram.",
+      "C": "probability density function."
+    },
+    "correctAnswer": "B",
+    "explanation": "tree diagram."
+  },
+  {
+    "id": 53,
+    "category": "Financial Statement Analysis",
+    "question": "An inflation-targeting central bank most likely has a medium-term inflation target sufficiently:",
+    "options": {
+      "A": "below zero to avoid the risk of deflation but high enough to ensure price stability.",
+      "B": "above zero to avoid the risk of deflation but low enough to ensure price stability.",
+      "C": "above zero to avoid the risk of inflation and high enough to ensure price stability."
+    },
+    "correctAnswer": "B",
+    "explanation": "above zero to avoid the risk of deflation but low enough to ensure price stability."
+  },
+  {
+    "id": 54,
+    "category": "Financial Statement Analysis",
+    "question": "Assuming wages and prices are stable, which of the following policy combinations most likely leads to an increase in the private sector's share of GDP?",
+    "options": {
+      "A": "Easy fiscal and easy monetary policy",
+      "B": "Tight fiscal and easy monetary policy",
+      "C": "Easy fiscal and tight monetary policy"
+    },
+    "correctAnswer": "B",
+    "explanation": "Tight fiscal and easy monetary policy"
+  },
+  {
+    "id": 55,
+    "category": "Financial Statement Analysis",
+    "question": "An investor gathers the following information:\r\n\r\nAccount\tStated annual interest rate\tCompounding frequency\r\nAccount 1\t6.1%\tDaily\r\nAccount 2\t6.3%\tAnnual\r\nAccount 3\t6.2%\tQuarterly\r\nIf a $1,000 deposit is made today, the future value in one year will be greatest for:",
+    "options": {
+      "A": "Account 1.",
+      "B": "Account 2.",
+      "C": "Account 3."
+    },
+    "correctAnswer": "C",
+    "explanation": "Account 3."
+  },
+  {
+    "id": 56,
+    "category": "Financial Statement Analysis",
+    "question": "At year end, a company has non-convertible debt, ordinary shares, and employee stock options outstanding. The company's capital structure is considered to be:",
+    "options": {
+      "A": "simple, if the options are antidilutive.",
+      "B": "complex, because the company has both debt and equity.",
+      "C": "complex, because the options are convertible into ordinary shares."
+    },
+    "correctAnswer": "C",
+    "explanation": "complex, because the options are convertible into ordinary shares."
+  },
+  {
+    "id": 57,
+    "category": "Financial Statement Analysis",
+    "question": "Which of the following is most likely to signal manipulation of financial reporting for a large, diversified company?",
+    "options": {
+      "A": "A history of large expense items classified as unusual",
+      "B": "Operating margins out of line with other diversified companies",
+      "C": "Changes in accounting policies to reflect new accounting standards"
+    },
+    "correctAnswer": "A",
+    "explanation": "A history of large expense items classified as unusual"
+  },
+  {
+    "id": 58,
+    "category": "Financial Statement Analysis",
+    "question": "According to capital allocation principles, managers should ignore:",
+    "options": {
+      "A": "taxes.",
+      "B": "the volatility of cash flows.",
+      "C": "expenses that were already incurred."
+    },
+    "correctAnswer": "C",
+    "explanation": "expenses that were already incurred."
+  },
+  {
+    "id": 59,
+    "category": "Financial Statement Analysis",
+    "question": "An individual can invest $50,000 today and receive $56,000 in one year's time. If her required rate of return is 12.0%, the rate of return on the investment is:",
+    "options": {
+      "A": "less than the required rate of return.",
+      "B": "equal to the required rate of return.",
+      "C": "greater than the required rate of return."
+    },
+    "correctAnswer": "B",
+    "explanation": "equal to the required rate of return."
+  },
+  {
+    "id": 60,
+    "category": "Financial Statement Analysis",
+    "question": "The entire cost of an intangible asset is most likely expensed when incurred if the asset is:",
+    "options": {
+      "A": "developed internally.",
+      "B": "acquired through business combinations.",
+      "C": "purchased in a transaction other than a business combination."
+    },
+    "correctAnswer": "A",
+    "explanation": "developed internally."
+  },
+  {
+    "id": 61,
+    "category": "Corporate Issuers",
+    "question": "An argument for a country's high national debt relative to GDP being a concern is when the debt:",
+    "options": {
+      "A": "is owed to domestic citizens.",
+      "B": "is used for capital investments.",
+      "C": "reduces private sector investing."
+    },
+    "correctAnswer": "C",
+    "explanation": "reduces private sector investing."
+  },
+  {
+    "id": 62,
+    "category": "Corporate Issuers",
+    "question": "An analyst gathers the following information (in £ millions) about three companies:\r\n\r\nMetric\tCompany 1\tCompany 2\tCompany 3\r\nDays of inventory\t45\t62\t50\r\nDays sales outstanding\t30\t45\t53\r\nDays of payables\t25\t60\t48\r\nThe company with the shortest cash conversion cycle is:",
+    "options": {
+      "A": "Company 1.",
+      "B": "Company 2.",
+      "C": "Company 3."
+    },
+    "correctAnswer": "B",
+    "explanation": "Company 2."
+  },
+  {
+    "id": 63,
+    "category": "Corporate Issuers",
+    "question": "Which of the following factors is most likely to lead to economies of scale?",
+    "options": {
+      "A": "Supply constraints",
+      "B": "Duplication of product lines",
+      "C": "Specialization by workers"
+    },
+    "correctAnswer": "C",
+    "explanation": "Specialization by workers"
+  },
+  {
+    "id": 64,
+    "category": "Corporate Issuers",
+    "question": "An analyst gathers the following information (in € thousands) about a company's total current assets:\r\n\r\nItem\tAmount (€ thousands)\r\nCash\t300\r\nShort-term marketable investments\t400\r\nReceivables\t100\r\nInventory\t200\r\nIf the current ratio is 1.0, the quick ratio is:",
+    "options": {
+      "A": "0.7.",
+      "B": "0.8.",
+      "C": "0.9."
+    },
+    "correctAnswer": "B",
+    "explanation": "0.8."
+  },
+  {
+    "id": 65,
+    "category": "Corporate Issuers",
+    "question": "The bootstrap resampling method:",
+    "options": {
+      "A": "guarantees that all items will appear in the resamples.",
+      "B": "relies on an analytical formula to estimate the distribution of the estimators.",
+      "C": "mimics the random sampling process by treating the randomly drawn sample as if it were the population."
+    },
+    "correctAnswer": "C",
+    "explanation": "mimics the random sampling process by treating the randomly drawn sample as if it were the population."
+  },
+  {
+    "id": 66,
+    "category": "Corporate Issuers",
+    "question": "Assume the percentage increases in each of the following listed items:\r\n\r\nItem\tPercentage Increase\r\nReal domestic exchange rate (USD/EUR)\t5\r\nEurozone price level\t2\r\nUS price level\t1.5\r\nThe predicted change in the nominal US spot exchange rate is closest to:",
+    "options": {
+      "A": "-0.5%.",
+      "B": "4.5%.",
+      "C": "5.5%."
+    },
+    "correctAnswer": "B",
+    "explanation": "4.5%."
+  },
+  {
+    "id": 67,
+    "category": "Corporate Issuers",
+    "question": "A company is prohibited from reversing the impairment loss on a long-lived asset classified as:",
+    "options": {
+      "A": "held for use under IFRS.",
+      "B": "held for use under US GAAP.",
+      "C": "held for sale under US GAAP."
+    },
+    "correctAnswer": "B",
+    "explanation": "held for use under US GAAP."
+  },
+  {
+    "id": 68,
+    "category": "Corporate Issuers",
+    "question": "Unaudited financial statements are most likely presented in a(n):",
+    "options": {
+      "A": "annual report.",
+      "B": "quarterly report.",
+      "C": "proxy statement."
+    },
+    "correctAnswer": "B",
+    "explanation": "quarterly report."
+  },
+  {
+    "id": 69,
+    "category": "Corporate Issuers",
+    "question": "From the perspective of a corporate issuer, which of the following is a benefit of issuing debt rather than equity as a source of capital? Debt is most likely:",
+    "options": {
+      "A": "cheaper.",
+      "B": "less risky.",
+      "C": "more permanent."
+    },
+    "correctAnswer": "A",
+    "explanation": "cheaper."
+  },
+  {
+    "id": 70,
+    "category": "Corporate Issuers",
+    "question": "Compared with its net income, a mature company's operating cash flow is most likely:",
+    "options": {
+      "A": "lower.",
+      "B": "the same.",
+      "C": "higher."
+    },
+    "correctAnswer": "C",
+    "explanation": "higher."
+  },
+  {
+    "id": 71,
+    "category": "Equity Investments",
+    "question": "In hypothesis testing, which of the following is stated in terms of population parameters?",
+    "options": {
+      "A": "The null hypothesis only",
+      "B": "The alternative hypothesis only",
+      "C": "Both the null hypothesis and the alternative hypothesis"
+    },
+    "correctAnswer": "C",
+    "explanation": "Both the null hypothesis and the alternative hypothesis"
+  },
+  {
+    "id": 72,
+    "category": "Equity Investments",
+    "question": "An analyst gathers the following information (in £ millions) from a company's year-end balance sheet:\r\n\r\nAccount\tYear 2\tYear 1\r\nAccounts receivable\t65\t55\r\nInventory\t120\t140\r\nPP&E\t1,400\t1,400\r\nAccumulated depreciation\t120\t80\r\nAccounts payable\t25\t40\r\nDuring Year 2, net income was £860 million. There were no acquisitions or sales of property, plant, and equipment and no write-downs. Cash flow from operating activities (in £ millions) for Year 2 is:",
+    "options": {
+      "A": "855.",
+      "B": "895.",
+      "C": "925."
+    },
+    "correctAnswer": "B",
+    "explanation": "895."
+  },
+  {
+    "id": 73,
+    "category": "Equity Investments",
+    "question": "Costs incurred during the development phase that are related to internally generated, identifiable intangible assets:",
+    "options": {
+      "A": "must be expensed.",
+      "B": "must be capitalized.",
+      "C": "can be capitalized if certain criteria are met."
+    },
+    "correctAnswer": "C",
+    "explanation": "can be capitalized if certain criteria are met."
+  },
+  {
+    "id": 74,
+    "category": "Equity Investments",
+    "question": "An analyst runs a simple linear regression using 35 months of data to assess a country's short-term interest rate as a function of its inflation rate, with the following results:\r\n\r\nSource\tDegrees of Freedom\tSums of Squares\tMean Square\r\nRegression\t1\t17.3009\t17.3009\r\nError\t33\t20.2299\t0.6130\r\nTotal\t34\t37.5308\t\r\nThe value of the standard error of the estimate is closest to:",
+    "options": {
+      "A": "0.68.",
+      "B": "0.78.",
+      "C": "1.05."
+    },
+    "correctAnswer": "B",
+    "explanation": "0.78."
+  },
+  {
+    "id": 75,
+    "category": "Equity Investments",
+    "question": "If the cost of capital exceeds the return on invested capital, shareholder value will:",
+    "options": {
+      "A": "decrease.",
+      "B": "remain the same.",
+      "C": "increase."
+    },
+    "correctAnswer": "A",
+    "explanation": "decrease."
+  },
+  {
+    "id": 76,
+    "category": "Equity Investments",
+    "question": "An analyst gathers the following information (in € thousands) about an electronics manufacturing company:\r\n\r\nMetric\tYear 2\tYear 1\r\nCost of sales\t1000\t800\r\nCost of ending inventory\t150\t120\r\nNet realizable value of inventory\t125\t160\r\nChanges to the allowance for inventory obsolescence have already been reflected in cost of sales. The days of inventory on hand (based on average inventory and 365-day year) for Year 2 is closest to:",
+    "options": {
+      "A": "45.",
+      "B": "49.",
+      "C": "52."
+    },
+    "correctAnswer": "A",
+    "explanation": "45."
+  },
+  {
+    "id": 77,
+    "category": "Equity Investments",
+    "question": "The effectiveness of infrastructure spending as a near-term fiscal stimulant would be least constrained by the:",
+    "options": {
+      "A": "action lag.",
+      "B": "impact lag.",
+      "C": "recognition lag."
+    },
+    "correctAnswer": "C",
+    "explanation": "recognition lag."
+  },
+  {
+    "id": 78,
+    "category": "Fixed Income",
+    "question": "An analyst gathers the following information (in € millions) about a company's land reported under the revaluation model:\r\n\r\nItem\tAmount (€ millions)\r\nOriginal cost\t12\r\nFair market value at initial revaluation on 31 December Year 1\t17\r\nFair market value at second revaluation on 31 December Year 2\t12\r\nAs a result of the second revaluation, the company recognizes in Year 2:",
+    "options": {
+      "A": "a €5 million loss on the income statement.",
+      "B": "a €5 million loss in other comprehensive income.",
+      "C": "neither a loss on the income statement nor a loss in other comprehensive income."
+    },
+    "correctAnswer": "B",
+    "explanation": "a €5 million loss in other comprehensive income."
+  },
+  {
+    "id": 79,
+    "category": "Fixed Income",
+    "question": "The goal of ordinary least squares regression is to minimize the sum of the squared deviations between the observations of the dependent variable and the corresponding:",
+    "options": {
+      "A": "estimated values of the dependent variable.",
+      "B": "observed values of the independent variable.",
+      "C": "values of the true underlying dependent variable."
+    },
+    "correctAnswer": "A",
+    "explanation": "estimated values of the dependent variable."
+  },
+  {
+    "id": 80,
+    "category": "Fixed Income",
+    "question": "Which of the following is most likely a motivation for leasing long term rather than purchasing a high-value asset?",
+    "options": {
+      "A": "Reduced exposure to obsolescence risk",
+      "B": "Not having to recognize an asset on the balance sheet",
+      "C": "Not having to recognize a liability on the balance sheet"
+    },
+    "correctAnswer": "A",
+    "explanation": "Reduced exposure to obsolescence risk"
+  },
+  {
+    "id": 81,
+    "category": "Fixed Income",
+    "question": "The most appropriate statement about financial ratio analysis is that it has limited use as an analytical tool for:",
+    "options": {
+      "A": "evaluating management.",
+      "B": "comparing companies that use different accounting methods.",
+      "C": "providing insights into microeconomic relationships within a company that help analysts project earnings."
+    },
+    "correctAnswer": "B",
+    "explanation": "comparing companies that use different accounting methods."
+  },
+  {
+    "id": 82,
+    "category": "Fixed Income",
+    "question": "Which of the following could result in a permanent difference between accounting profit and taxable income?",
+    "options": {
+      "A": "Used tax credits",
+      "B": "A tax loss carryforward",
+      "C": "Difference between carrying amount and tax base of assets because of different depreciation methods"
+    },
+    "correctAnswer": "A",
+    "explanation": "Used tax credits"
+  },
+  {
+    "id": 83,
+    "category": "Fixed Income",
+    "question": "An analyst gathers the following financial market information:\r\n\r\nMarket metric\tValue\r\nEUR/USD spot exchange rate\t0.9876\r\n180-day USD risk-free rate\t1.00%\r\n180-day EUR risk-free rate\t1.20%\r\nEUR/USD is the amount of EUR per 1 USD. The 180-day EUR/USD forward exchange rate is closest to:",
+    "options": {
+      "A": "0.98662.",
+      "B": "0.98858.",
+      "C": "0.98956."
+    },
+    "correctAnswer": "B",
+    "explanation": "0.98858."
+  },
+  {
+    "id": 84,
+    "category": "Fixed Income",
+    "question": "The static trade-off theory of capital structure most likely considers:",
+    "options": {
+      "A": "agency costs of equity.",
+      "B": "information asymmetry.",
+      "C": "the tax shield provided by debt."
+    },
+    "correctAnswer": "C",
+    "explanation": "the tax shield provided by debt."
+  },
+  {
+    "id": 85,
+    "category": "Derivatives",
+    "question": "Which of the following can be calculated based on information from the balance sheet only?",
+    "options": {
+      "A": "Quick ratio",
+      "B": "Debt coverage",
+      "C": "Receivables turnover ratio"
+    },
+    "correctAnswer": "A",
+    "explanation": "Quick ratio"
+  },
+  {
+    "id": 86,
+    "category": "Derivatives",
+    "question": "An investor is considering three investments:\r\n\r\nInvestment 1 makes 20 annual payments of $50,000, starting one year from today.\r\nInvestment 2 makes 25 annual payments of $45,000, starting today.\r\nInvestment 3 makes annual payments of $40,000 indefinitely, starting one year from today.\r\nIf the investor's discount rate is 10% per year, which investment has the highest present value?",
+    "options": {
+      "A": "Investment 1",
+      "B": "Investment 2",
+      "C": "Investment 3"
+    },
+    "correctAnswer": "B",
+    "explanation": "Investment 2"
+  },
+  {
+    "id": 87,
+    "category": "Derivatives",
+    "question": "Which of the following most likely has the greatest access to capital?",
+    "options": {
+      "A": "Corporation",
+      "B": "Limited partnership",
+      "C": "General partnership"
+    },
+    "correctAnswer": "A",
+    "explanation": "Corporation"
+  },
+  {
+    "id": 88,
+    "category": "Alternative Investments",
+    "question": "An analyst gathers the following information about a company's capital sources:\r\n\r\nCapital Source / Metric\tValue\r\nTarget weight of debt\t25%\r\nTarget weight of equity\t75%\r\nBefore-tax marginal cost of debt\t4%\r\nMarginal cost of equity\t12%\r\nIf the marginal tax rate is 20% and interest expense is tax deductible, the company's WACC is:",
+    "options": {
+      "A": "9.80%.",
+      "B": "10.00%.",
+      "C": "10.25%."
+    },
+    "correctAnswer": "A",
+    "explanation": "9.80%."
+  },
+  {
+    "id": 89,
+    "category": "Alternative Investments",
+    "question": "An analyst gathers the following probability distribution of a company's earnings:\r\n\r\nProbability\tEarnings ($ millions)\r\n0.25\t100\r\n0.70\t300\r\n0.05\t600\r\nThe standard deviation of the company's earnings is closest to:",
+    "options": {
+      "A": "$115 million.",
+      "B": "$134 million.",
+      "C": "$375 million."
+    },
+    "correctAnswer": "A",
+    "explanation": "$115 million."
+  },
+  {
+    "id": 90,
+    "category": "Alternative Investments",
+    "question": "An investor purchases a security for ¥500,000. If the value of the security declines by 10% over the first 3-month period and then increases by 9% over the next 3-month period, the holding period return over the 6-month period is closest to:",
+    "options": {
+      "A": "-1.9%.",
+      "B": "-1.0%.",
+      "C": "-0.5%."
+    },
+    "correctAnswer": "A",
+    "explanation": "1.9%."
+  }
+]

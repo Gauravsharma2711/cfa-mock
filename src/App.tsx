@@ -29,6 +29,54 @@ const SESSIONS: MockSession[] = [
     dataFile: '/data/mock1_ss2.json',
     iconName: 'Award',
     badgeColor: 'pink'
+  },
+  {
+    id: 'mock2_ss1',
+    title: 'CFA Level I - Mock 2 Session 1',
+    shortTitle: 'Mock 2 Session 1',
+    subtitle: 'Ethical Standards, Quantitative Methods, Economics & Financial Statement Analysis',
+    questionsCount: 90,
+    timeAllowedMinutes: 135,
+    topics: ['Ethics', 'Quantitative Methods', 'Economics', 'Financial Statement Analysis'],
+    dataFile: '/data/mock2_ss1.json',
+    iconName: 'BookOpen',
+    badgeColor: 'blue'
+  },
+  {
+    id: 'mock2_ss2',
+    title: 'CFA Level I - Mock 2 Session 2',
+    shortTitle: 'Mock 2 Session 2',
+    subtitle: 'Corporate Issuers, Equity, Fixed Income, Derivatives, Alternative Investments & Portfolio Management',
+    questionsCount: 90,
+    timeAllowedMinutes: 135,
+    topics: ['Corporate Issuers', 'Equity', 'Fixed Income', 'Derivatives', 'Alternative Investments', 'Portfolio Management'],
+    dataFile: '/data/mock2_ss2.json',
+    iconName: 'Award',
+    badgeColor: 'emerald'
+  },
+  {
+    id: 'mock3_ss1',
+    title: 'CFA Level I - Mock 3 Session 1',
+    shortTitle: 'Mock 3 Session 1',
+    subtitle: 'Ethical Standards, Quantitative Methods, Economics & Financial Statement Analysis',
+    questionsCount: 90,
+    timeAllowedMinutes: 135,
+    topics: ['Ethics', 'Quantitative Methods', 'Economics', 'Financial Statement Analysis'],
+    dataFile: '/data/mock3_ss1.json',
+    iconName: 'BookOpen',
+    badgeColor: 'orange'
+  },
+  {
+    id: 'mock3_ss2',
+    title: 'CFA Level I - Mock 3 Session 2',
+    shortTitle: 'Mock 3 Session 2',
+    subtitle: 'Corporate Issuers, Equity, Fixed Income, Derivatives, Alternative Investments & Portfolio Management',
+    questionsCount: 90,
+    timeAllowedMinutes: 135,
+    topics: ['Corporate Issuers', 'Equity', 'Fixed Income', 'Derivatives', 'Alternative Investments', 'Portfolio Management'],
+    dataFile: '/data/mock3_ss2.json',
+    iconName: 'Award',
+    badgeColor: 'teal'
   }
 ];
 
