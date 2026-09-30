@@ -47,4 +47,22 @@ export interface ExamResult {
   passed: boolean;
   userAnswers: UserAnswers;
   flaggedQuestions: FlaggedQuestions;
+  topicBreakdown?: {
+    [topic: string]: {
+      correct: number;
+      total: number;
+      percentage: number;
+    };
+  };
+}
+
+export interface ActiveExamState {
+  sessionId: string;
+  examMode: ExamMode;
+  questions: Question[];
+  userAnswers: UserAnswers;
+  flaggedQuestions: FlaggedQuestions;
+  timeRemainingSeconds: number | null;
+  currentIndex: number;
+  startTime: number;
 }

@@ -3,7 +3,7 @@ import { Navbar } from './components/Navbar';
 import { Dashboard } from './components/Dashboard';
 import { ExamPortal } from './components/ExamPortal';
 import { ResultsView } from './components/ResultsView';
-import { Question, MockSession, ExamMode, UserAnswers, FlaggedQuestions, ExamResult } from './types';
+import { Question, MockSession, ExamMode, UserAnswers, FlaggedQuestions, ExamResult, ActiveExamState } from './types';
 
 const SESSIONS: MockSession[] = [
   {
@@ -80,6 +80,8 @@ const SESSIONS: MockSession[] = [
   }
 ];
 
+const STORAGE_ACTIVE_EXAM_KEY = 'cfa_active_exam_state';
+
 export const App: React.FC = () => {
   const [theme, setTheme] = useState<'light' | 'dark'>('light');
   const [view, setView] = useState<'dashboard' | 'exam' | 'results'>('dashboard');
@@ -87,6 +89,7 @@ export const App: React.FC = () => {
   const [currentSession, setCurrentSession] = useState<MockSession | null>(null);
   const [examMode, setExamMode] = useState<ExamMode>('timed');
   const [questions, setQuestions] = useState<Question[]>([]);
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [loading, setLoading] = useState(false);
 
   const [userAnswers, setUserAnswers] = useState<UserAnswers>({});
@@ -94,12 +97,13 @@ export const App: React.FC = () => {
   
   const [timeRemainingSeconds, setTimeRemainingSeconds] = useState<number | null>(null);
   const [isPaused, setIsPaused] = useState(false);
-  const timerRef = useRef<any>(null);
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   
   const [currentResult, setCurrentResult] = useState<ExamResult | null>(null);
   const [history, setHistory] = useState<ExamResult[]>([]);
+  const [hasSavedSession, setHasSavedSession] = useState(false);
 
-  // Load theme and history from localStorage
+  // Load theme, history, and active exam state from localStorage on mount
   useEffect(() => {
     const savedTheme = localStorage.getItem('cfa_theme') as 'light' | 'dark';
     if (savedTheme) {
@@ -115,6 +119,19 @@ export const App: React.FC = () => {
         console.error('Failed to parse history', e);
       }
     }
+
+    const savedActiveExam = localStorage.getItem(STORAGE_ACTIVE_EXAM_KEY);
+    if (savedActiveExam) {
+      try {
+        const parsed: ActiveExamState = JSON.parse(savedActiveExam);
+        if (parsed && parsed.sessionId && parsed.questions && parsed.questions.length > 0) {
+          setHasSavedSession(true);
+        }
+      } catch (e) {
+        console.error('Failed to parse active exam state', e);
+        localStorage.removeItem(STORAGE_ACTIVE_EXAM_KEY);
+      }
+    }
   }, []);
 
   const toggleTheme = () => {
@@ -124,13 +141,64 @@ export const App: React.FC = () => {
     localStorage.setItem('cfa_theme', nextTheme);
   };
 
-  // Timer countdown
+  // Persist active exam state while taking an exam
+  useEffect(() => {
+    if (view === 'exam' && currentSession && questions.length > 0) {
+      const activeState: ActiveExamState = {
+        sessionId: currentSession.id,
+        examMode,
+        questions,
+        userAnswers,
+        flaggedQuestions,
+        timeRemainingSeconds,
+        currentIndex,
+        startTime: Date.now()
+      };
+      localStorage.setItem(STORAGE_ACTIVE_EXAM_KEY, JSON.stringify(activeState));
+      setHasSavedSession(true);
+    }
+  }, [view, currentSession, questions, userAnswers, flaggedQuestions, timeRemainingSeconds, currentIndex, examMode]);
+
+  const clearActiveExamState = () => {
+    localStorage.removeItem(STORAGE_ACTIVE_EXAM_KEY);
+    setHasSavedSession(false);
+  };
+
+  const resumeSavedExam = () => {
+    const savedActiveExam = localStorage.getItem(STORAGE_ACTIVE_EXAM_KEY);
+    if (!savedActiveExam) return;
+
+    try {
+      const parsed: ActiveExamState = JSON.parse(savedActiveExam);
+      const session = SESSIONS.find(s => s.id === parsed.sessionId);
+      if (!session) return;
+
+      setCurrentSession(session);
+      setExamMode(parsed.examMode);
+      setQuestions(parsed.questions);
+      setUserAnswers(parsed.userAnswers || {});
+      setFlaggedQuestions(parsed.flaggedQuestions || {});
+      setTimeRemainingSeconds(parsed.timeRemainingSeconds ?? null);
+      setCurrentIndex(parsed.currentIndex || 0);
+      setIsPaused(false);
+      setView('exam');
+    } catch (e) {
+      console.error('Failed to resume saved exam', e);
+      clearActiveExamState();
+    }
+  };
+
+  const handleAutoSubmit = () => {
+    handleSubmitExam();
+  };
+
+  // Timer countdown implementation
   useEffect(() => {
     if (view === 'exam' && examMode === 'timed' && timeRemainingSeconds !== null && !isPaused) {
       timerRef.current = setInterval(() => {
         setTimeRemainingSeconds((prev) => {
           if (prev === null || prev <= 1) {
-            clearInterval(timerRef.current);
+            if (timerRef.current) clearInterval(timerRef.current);
             handleAutoSubmit();
             return 0;
           }
@@ -138,10 +206,12 @@ export const App: React.FC = () => {
         });
       }, 1000);
     } else {
-      clearInterval(timerRef.current);
+      if (timerRef.current) clearInterval(timerRef.current);
     }
-    return () => clearInterval(timerRef.current);
-  }, [view, examMode, isPaused, timeRemainingSeconds]);
+    return () => {
+      if (timerRef.current) clearInterval(timerRef.current);
+    };
+  }, [view, examMode, isPaused, timeRemainingSeconds === null]);
 
   const handleStartExam = async (session: MockSession, mode: ExamMode) => {
     setLoading(true);
@@ -149,6 +219,7 @@ export const App: React.FC = () => {
     setExamMode(mode);
     setUserAnswers({});
     setFlaggedQuestions({});
+    setCurrentIndex(0);
 
     try {
       const res = await fetch(session.dataFile);
@@ -196,10 +267,27 @@ export const App: React.FC = () => {
     if (!currentSession || questions.length === 0) return null;
 
     let score = 0;
+    const topicBreakdown: { [topic: string]: { correct: number; total: number; percentage: number } } = {};
+
     questions.forEach((q) => {
-      if (userAnswers[q.id] === q.correctAnswer) {
+      const isCorrect = userAnswers[q.id] === q.correctAnswer;
+      if (isCorrect) {
         score++;
       }
+
+      const category = q.category || 'General';
+      if (!topicBreakdown[category]) {
+        topicBreakdown[category] = { correct: 0, total: 0, percentage: 0 };
+      }
+      topicBreakdown[category].total += 1;
+      if (isCorrect) {
+        topicBreakdown[category].correct += 1;
+      }
+    });
+
+    Object.keys(topicBreakdown).forEach((cat) => {
+      const t = topicBreakdown[cat];
+      t.percentage = t.total > 0 ? Math.round((t.correct / t.total) * 100) : 0;
     });
 
     const totalQuestions = questions.length;
@@ -223,7 +311,8 @@ export const App: React.FC = () => {
       percentage,
       passed,
       userAnswers,
-      flaggedQuestions
+      flaggedQuestions,
+      topicBreakdown
     };
 
     return result;
@@ -238,12 +327,8 @@ export const App: React.FC = () => {
     setHistory(newHistory);
     localStorage.setItem('cfa_exam_history', JSON.stringify(newHistory));
 
+    clearActiveExamState();
     setView('results');
-  };
-
-  const handleAutoSubmit = () => {
-    alert('⏰ Time is up! Submitting your exam automatically...');
-    handleSubmitExam();
   };
 
   const handleClearHistory = () => {
@@ -264,7 +349,7 @@ export const App: React.FC = () => {
         onToggleTheme={toggleTheme}
         onGoHome={() => {
           if (view === 'exam') {
-            if (window.confirm('Are you sure you want to exit the exam? Your progress will be lost.')) {
+            if (window.confirm('Are you sure you want to exit the exam? Your progress will be saved.')) {
               setView('dashboard');
             }
           } else {
@@ -282,6 +367,8 @@ export const App: React.FC = () => {
           <Dashboard
             sessions={SESSIONS}
             history={history}
+            hasSavedSession={hasSavedSession}
+            onResumeSavedExam={resumeSavedExam}
             onStartExam={handleStartExam}
             onReviewResult={(res) => {
               const session = SESSIONS.find(s => s.id === res.sessionId);
@@ -303,6 +390,8 @@ export const App: React.FC = () => {
             questions={questions}
             userAnswers={userAnswers}
             flaggedQuestions={flaggedQuestions}
+            currentIndex={currentIndex}
+            setCurrentIndex={setCurrentIndex}
             onSelectOption={handleSelectOption}
             onToggleFlag={handleToggleFlag}
             onClearOption={handleClearOption}

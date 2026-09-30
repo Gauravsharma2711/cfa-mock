@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { ChevronLeft, ChevronRight, Flag, CheckCircle, AlertTriangle, Play, Pause, Send, Grid } from 'lucide-react';
+import React, { useState, useEffect, useCallback } from 'react';
+import { ChevronLeft, ChevronRight, Flag, CheckCircle, AlertTriangle, Play, Pause, Send, Grid, Keyboard } from 'lucide-react';
 import { Question, UserAnswers, FlaggedQuestions, MockSession } from '../types';
 
 interface ExamPortalProps {
@@ -7,6 +7,8 @@ interface ExamPortalProps {
   questions: Question[];
   userAnswers: UserAnswers;
   flaggedQuestions: FlaggedQuestions;
+  currentIndex: number;
+  setCurrentIndex: React.Dispatch<React.SetStateAction<number>>;
   onSelectOption: (questionId: number, option: 'A' | 'B' | 'C') => void;
   onToggleFlag: (questionId: number) => void;
   onClearOption: (questionId: number) => void;
@@ -20,6 +22,8 @@ export const ExamPortal: React.FC<ExamPortalProps> = ({
   questions,
   userAnswers,
   flaggedQuestions,
+  currentIndex,
+  setCurrentIndex,
   onSelectOption,
   onToggleFlag,
   onClearOption,
@@ -27,35 +31,74 @@ export const ExamPortal: React.FC<ExamPortalProps> = ({
   isPaused,
   onTogglePause,
 }) => {
-  const [currentIndex, setCurrentIndex] = useState(0);
   const [showConfirmModal, setShowConfirmModal] = useState(false);
   const [showPaletteDrawer, setShowPaletteDrawer] = useState(false);
+  const [showHotkeyHelp, setShowHotkeyHelp] = useState(false);
 
   const currentQ = questions[currentIndex];
-  if (!currentQ) return null;
 
   const totalQuestions = questions.length;
   const answeredCount = Object.keys(userAnswers).length;
   const flaggedCount = Object.values(flaggedQuestions).filter(Boolean).length;
   const unansweredCount = totalQuestions - answeredCount;
 
-  const isCurrentFlagged = !!flaggedQuestions[currentQ.id];
-  const selectedOption = userAnswers[currentQ.id];
+  const isCurrentFlagged = currentQ ? !!flaggedQuestions[currentQ.id] : false;
+  const selectedOption = currentQ ? userAnswers[currentQ.id] : undefined;
 
-  const handleNext = () => {
+  const handleNext = useCallback(() => {
     if (currentIndex < totalQuestions - 1) {
       setCurrentIndex(prev => prev + 1);
     }
-  };
+  }, [currentIndex, totalQuestions, setCurrentIndex]);
 
-  const handlePrev = () => {
+  const handlePrev = useCallback(() => {
     if (currentIndex > 0) {
       setCurrentIndex(prev => prev - 1);
     }
-  };
+  }, [currentIndex, setCurrentIndex]);
+
+  // Keyboard Navigation Shortcuts
+  useEffect(() => {
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Don't trigger if typing inside input / textarea
+      if (['INPUT', 'TEXTAREA'].includes((e.target as HTMLElement)?.tagName)) {
+        return;
+      }
+
+      if (showConfirmModal) return;
+
+      const key = e.key.toUpperCase();
+
+      if (['A', 'B', 'C'].includes(key) && currentQ && !isPaused) {
+        onSelectOption(currentQ.id, key as 'A' | 'B' | 'C');
+      } else if (e.key === 'ArrowRight') {
+        handleNext();
+      } else if (e.key === 'ArrowLeft') {
+        handlePrev();
+      } else if (key === 'F' && currentQ) {
+        onToggleFlag(currentQ.id);
+      } else if (key === 'P') {
+        onTogglePause();
+      } else if (key === 'H') {
+        setShowHotkeyHelp(prev => !prev);
+      }
+    };
+
+    window.addEventListener('keydown', handleKeyDown);
+    return () => window.removeEventListener('keydown', handleKeyDown);
+  }, [currentQ, isPaused, showConfirmModal, handleNext, handlePrev, onSelectOption, onToggleFlag, onTogglePause]);
+
+  if (!currentQ) return null;
+
+  const progressPercent = Math.round(((currentIndex + 1) / totalQuestions) * 100);
 
   return (
     <div className="exam-portal-container animate-fade">
+      {/* Visual Exam Progress Bar */}
+      <div className="exam-progress-wrapper">
+        <div className="exam-progress-bar" style={{ width: `${progressPercent}%` }}></div>
+      </div>
+
       {/* Top Exam Toolbar */}
       <div className="exam-toolbar glass-panel">
         <div className="toolbar-left">
@@ -68,15 +111,23 @@ export const ExamPortal: React.FC<ExamPortalProps> = ({
 
         <div className="toolbar-right">
           <button
+            className="btn btn-secondary btn-sm"
+            onClick={() => setShowHotkeyHelp(!showHotkeyHelp)}
+            title="Keyboard Shortcuts"
+          >
+            <Keyboard className="w-4 h-4" /> <span className="hide-mobile">Shortcuts</span>
+          </button>
+
+          <button
             className={`btn btn-sm ${isCurrentFlagged ? 'btn-cute' : 'btn-secondary'}`}
             onClick={() => onToggleFlag(currentQ.id)}
           >
-            <Flag className="w-4 h-4" /> {isCurrentFlagged ? 'Flagged 🚩' : 'Flag Question'}
+            <Flag className="w-4 h-4" /> {isCurrentFlagged ? 'Flagged 🚩' : 'Flag [F]'}
           </button>
 
           <button className="btn btn-secondary btn-sm" onClick={onTogglePause}>
             {isPaused ? <Play className="w-4 h-4 text-emerald-600" /> : <Pause className="w-4 h-4" />}
-            {isPaused ? 'Resume' : 'Pause'}
+            {isPaused ? 'Resume [P]' : 'Pause [P]'}
           </button>
 
           <button
@@ -92,12 +143,26 @@ export const ExamPortal: React.FC<ExamPortalProps> = ({
         </div>
       </div>
 
+      {/* Hotkey Help Banner */}
+      {showHotkeyHelp && (
+        <div className="hotkey-banner glass-panel animate-fade">
+          <div className="hotkey-title font-bold text-sm">⌨️ Keyboard Shortcuts Enabled:</div>
+          <div className="hotkey-tags">
+            <span className="hk-tag"><kbd>A</kbd> / <kbd>B</kbd> / <kbd>C</kbd> Select Choice</span>
+            <span className="hk-tag"><kbd>←</kbd> / <kbd>→</kbd> Prev/Next Question</span>
+            <span className="hk-tag"><kbd>F</kbd> Flag Question</span>
+            <span className="hk-tag"><kbd>P</kbd> Pause Timer</span>
+            <span className="hk-tag"><kbd>H</kbd> Toggle Shortcuts Info</span>
+          </div>
+        </div>
+      )}
+
       {/* Main Content Area */}
       <div className="exam-main-layout">
         {/* Left / Main Question Display */}
         <div className="question-card glass-panel">
           <div className="question-header">
-            <span className="q-number">Q{currentQ.id}.</span>
+            <span className="q-number">Q{currentIndex + 1}.</span>
             <p className="q-text">{currentQ.question}</p>
           </div>
 
@@ -111,10 +176,11 @@ export const ExamPortal: React.FC<ExamPortalProps> = ({
                 <div
                   key={optKey}
                   className={`option-button ${isSelected ? 'selected' : ''}`}
-                  onClick={() => onSelectOption(currentQ.id, optKey)}
+                  onClick={() => !isPaused && onSelectOption(currentQ.id, optKey)}
                 >
                   <div className="opt-key-circle">{optKey}</div>
                   <div className="opt-text">{optionText}</div>
+                  <span className="opt-shortcut-hint"><kbd>{optKey}</kbd></span>
                 </div>
               );
             })}
@@ -246,10 +312,22 @@ export const ExamPortal: React.FC<ExamPortalProps> = ({
 
       <style>{`
         .exam-portal-container {
-          padding: 24px 0 64px 0;
+          padding: 16px 0 64px 0;
           display: flex;
           flex-direction: column;
-          gap: 20px;
+          gap: 16px;
+        }
+        .exam-progress-wrapper {
+          width: 100%;
+          height: 6px;
+          background: rgba(124, 58, 237, 0.1);
+          border-radius: var(--radius-full);
+          overflow: hidden;
+        }
+        .exam-progress-bar {
+          height: 100%;
+          background: linear-gradient(90deg, var(--primary) 0%, var(--accent-pink) 100%);
+          transition: width 0.3s ease;
         }
         .exam-toolbar {
           padding: 16px 24px;
@@ -281,6 +359,37 @@ export const ExamPortal: React.FC<ExamPortalProps> = ({
           align-items: center;
           gap: 10px;
         }
+        .hotkey-banner {
+          padding: 12px 20px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 16px;
+          flex-wrap: wrap;
+          background: var(--primary-light);
+          border-color: rgba(124, 58, 237, 0.2);
+        }
+        .hotkey-tags {
+          display: flex;
+          gap: 12px;
+          flex-wrap: wrap;
+        }
+        .hk-tag {
+          font-size: 0.8rem;
+          color: var(--text-main);
+          display: flex;
+          align-items: center;
+          gap: 4px;
+        }
+        kbd {
+          background: var(--card-bg);
+          border: 1px solid var(--card-border);
+          border-radius: 4px;
+          padding: 1px 6px;
+          font-family: monospace;
+          font-size: 0.75rem;
+          box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        }
 
         .exam-main-layout {
           display: grid;
@@ -303,6 +412,9 @@ export const ExamPortal: React.FC<ExamPortalProps> = ({
             z-index: 1100;
             border-radius: 0;
             box-shadow: -10px 0 30px rgba(0,0,0,0.2);
+          }
+          .hide-mobile {
+            display: none;
           }
         }
 
@@ -346,6 +458,7 @@ export const ExamPortal: React.FC<ExamPortalProps> = ({
           cursor: pointer;
           transition: all 0.2s cubic-bezier(0.34, 1.56, 0.64, 1);
           background: var(--card-bg);
+          position: relative;
         }
         .option-button:hover {
           border-color: var(--primary);
@@ -383,6 +496,10 @@ export const ExamPortal: React.FC<ExamPortalProps> = ({
           font-size: 1.05rem;
           color: var(--text-main);
           line-height: 1.5;
+          flex: 1;
+        }
+        .opt-shortcut-hint {
+          opacity: 0.5;
         }
 
         .question-footer {
