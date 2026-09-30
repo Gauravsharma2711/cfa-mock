@@ -6,9 +6,9 @@
   
   --bg-gradient: linear-gradient(135deg, #f0f4ff 0%, #faedf6 50%, #f3f0ff 100%);
   --bg-color: #f8fafc;
-  --card-bg: rgba(255, 255, 255, 0.85);
+  --card-bg: rgba(255, 255, 255, 0.88);
   --card-border: rgba(226, 232, 240, 0.8);
-  --text-main: #1e293b;
+  --text-main: #0f172a;
   --text-muted: #64748b;
   --text-light: #94a3b8;
   
@@ -44,25 +44,29 @@
 }
 
 [data-theme='dark'] {
-  --bg-gradient: linear-gradient(135deg, #0f172a 0%, #1e1b4b 50%, #111827 100%);
+  --bg-gradient: linear-gradient(135deg, #090d16 0%, #171338 50%, #0d1322 100%);
   --bg-color: #0b0f19;
-  --card-bg: rgba(30, 41, 59, 0.8);
-  --card-border: rgba(51, 65, 85, 0.6);
+  --card-bg: rgba(24, 32, 47, 0.85);
+  --card-border: rgba(51, 65, 85, 0.7);
   --text-main: #f8fafc;
   --text-muted: #cbd5e1;
   --text-light: #64748b;
   
-  --primary-light: rgba(124, 58, 237, 0.2);
-  --accent-pink-light: rgba(236, 72, 153, 0.2);
-  --accent-blue-light: rgba(59, 130, 246, 0.2);
-  --accent-mint-light: rgba(16, 185, 129, 0.2);
-  --accent-amber-light: rgba(245, 158, 11, 0.2);
+  --primary: #a78bfa;
+  --primary-light: rgba(124, 58, 237, 0.25);
+  --primary-hover: #8b5cf6;
   
-  --correct-bg: rgba(16, 185, 129, 0.15);
-  --correct-border: rgba(16, 185, 129, 0.4);
+  --accent-pink: #f472b6;
+  --accent-pink-light: rgba(236, 72, 153, 0.25);
+  --accent-blue-light: rgba(59, 130, 246, 0.25);
+  --accent-mint-light: rgba(16, 185, 129, 0.25);
+  --accent-amber-light: rgba(245, 158, 11, 0.25);
   
-  --incorrect-bg: rgba(239, 68, 68, 0.15);
-  --incorrect-border: rgba(239, 68, 68, 0.4);
+  --correct-bg: rgba(16, 185, 129, 0.18);
+  --correct-border: rgba(16, 185, 129, 0.45);
+
+  --incorrect-bg: rgba(239, 68, 68, 0.18);
+  --incorrect-border: rgba(239, 68, 68, 0.45);
 }
 
 * {
@@ -98,11 +102,11 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(124, 58, 237, 0.25);
+  background: rgba(124, 58, 237, 0.3);
   border-radius: var(--radius-full);
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(124, 58, 237, 0.45);
+  background: rgba(124, 58, 237, 0.5);
 }
 
 /* Glass Container Utility */

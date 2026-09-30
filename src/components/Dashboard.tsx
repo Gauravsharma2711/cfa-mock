@@ -1,10 +1,12 @@
 import React, { useState } from 'react';
-import { BookOpen, Clock, Zap, CheckCircle2, Trophy, BarChart2, ArrowRight, RotateCcw, Eye, Sparkles } from 'lucide-react';
+import { BookOpen, Clock, Zap, CheckCircle2, Trophy, BarChart2, ArrowRight, RotateCcw, Eye, Sparkles, PlayCircle } from 'lucide-react';
 import { MockSession, ExamMode, ExamResult } from '../types';
 
 interface DashboardProps {
   sessions: MockSession[];
   history: ExamResult[];
+  hasSavedSession?: boolean;
+  onResumeSavedExam?: () => void;
   onStartExam: (session: MockSession, mode: ExamMode) => void;
   onReviewResult: (result: ExamResult) => void;
   onClearHistory: () => void;
@@ -13,6 +15,8 @@ interface DashboardProps {
 export const Dashboard: React.FC<DashboardProps> = ({
   sessions,
   history,
+  hasSavedSession,
+  onResumeSavedExam,
   onStartExam,
   onReviewResult,
   onClearHistory,
@@ -30,6 +34,24 @@ export const Dashboard: React.FC<DashboardProps> = ({
 
   return (
     <div className="dashboard-container animate-fade">
+      {/* Resume Saved Session Banner */}
+      {hasSavedSession && onResumeSavedExam && (
+        <section className="resume-banner glass-panel animate-fade">
+          <div className="resume-content">
+            <div className="flex items-center gap-2 font-bold text-lg text-purple-700">
+              <PlayCircle className="w-6 h-6 text-purple-600 animate-bounce" />
+              In-Progress Exam Saved!
+            </div>
+            <p className="text-muted text-sm">
+              You have an active exam session saved in local storage. Click resume to continue where you left off.
+            </p>
+          </div>
+          <button className="btn btn-primary" onClick={onResumeSavedExam}>
+            <PlayCircle className="w-4 h-4" /> Resume Saved Exam
+          </button>
+        </section>
+      )}
+
       {/* Hero Welcome Banner */}
       <section className="hero-banner glass-panel">
         <div className="hero-content">
@@ -259,6 +281,21 @@ export const Dashboard: React.FC<DashboardProps> = ({
           flex-direction: column;
           gap: 32px;
         }
+        .resume-banner {
+          padding: 20px 28px;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          gap: 20px;
+          flex-wrap: wrap;
+          background: linear-gradient(135deg, rgba(243,232,255,0.95) 0%, rgba(252,231,243,0.95) 100%);
+          border-color: rgba(124, 58, 237, 0.3);
+        }
+        .resume-content {
+          display: flex;
+          flex-direction: column;
+          gap: 4px;
+        }
         .hero-banner {
           padding: 36px;
           display: flex;
@@ -354,6 +391,10 @@ export const Dashboard: React.FC<DashboardProps> = ({
         }
         .session-badge.purple { background: linear-gradient(135deg, #7c3aed, #a855f7); }
         .session-badge.pink { background: linear-gradient(135deg, #ec4899, #f43f5e); }
+        .session-badge.blue { background: linear-gradient(135deg, #3b82f6, #60a5fa); }
+        .session-badge.emerald { background: linear-gradient(135deg, #10b981, #34d399); }
+        .session-badge.orange { background: linear-gradient(135deg, #f97316, #fb923c); }
+        .session-badge.teal { background: linear-gradient(135deg, #14b8a6, #2dd4bf); }
 
         .session-meta h3 {
           font-size: 1.3rem;

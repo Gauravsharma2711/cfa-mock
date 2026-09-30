@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Trophy, CheckCircle2, XCircle, Clock, RotateCcw, Filter, Search, BookOpen, Flag, Award, Sparkles } from 'lucide-react';
+import { Trophy, CheckCircle2, XCircle, Clock, RotateCcw, Search, BookOpen, Flag, Award, Sparkles, Printer, BarChart3 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { Question, ExamResult } from '../types';
 
@@ -17,6 +17,7 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
   onGoDashboard,
 }) => {
   const [filter, setFilter] = useState<'all' | 'correct' | 'incorrect' | 'flagged' | 'unanswered'>('all');
+  const [selectedTopic, setSelectedTopic] = useState<string>('all');
   const [searchQuery, setSearchQuery] = useState('');
 
   useEffect(() => {
@@ -39,6 +40,13 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
     return `${mins}m ${secs}s`;
   };
 
+  const handlePrint = () => {
+    window.print();
+  };
+
+  // Get unique topics/categories from questions
+  const topicsList = Array.from(new Set(questions.map(q => q.category))).filter(Boolean);
+
   const filteredQuestions = questions.filter(q => {
     const userAns = result.userAnswers[q.id];
     const isCorrect = userAns === q.correctAnswer;
@@ -49,6 +57,8 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
     if (filter === 'incorrect' && (isCorrect || isUnanswered)) return false;
     if (filter === 'flagged' && !isFlagged) return false;
     if (filter === 'unanswered' && !isUnanswered) return false;
+
+    if (selectedTopic !== 'all' && q.category !== selectedTopic) return false;
 
     if (searchQuery.trim()) {
       const qText = (q.question + ' ' + q.category).toLowerCase();
@@ -61,6 +71,7 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
   const correctCount = result.score;
   const incorrectCount = Object.keys(result.userAnswers).length - correctCount;
   const unansweredCount = result.totalQuestions - Object.keys(result.userAnswers).length;
+  const flaggedCount = Object.values(result.flaggedQuestions).filter(Boolean).length;
 
   return (
     <div className="results-container animate-fade">
@@ -90,7 +101,10 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
           </div>
         </div>
 
-        <div className="hero-actions">
+        <div className="hero-actions print-hide">
+          <button className="btn btn-secondary" onClick={handlePrint} title="Print Result Summary">
+            <Printer className="w-4 h-4" /> Print Report
+          </button>
           <button className="btn btn-secondary" onClick={onGoDashboard}>
             <BookOpen className="w-4 h-4" /> Dashboard
           </button>
@@ -125,14 +139,51 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
             <div className="label">Unanswered</div>
           </div>
         </div>
+
+        <div className="breakdown-card bg-pink-50 text-pink-800">
+          <Flag className="w-6 h-6 text-pink-600" />
+          <div>
+            <div className="value">{flaggedCount}</div>
+            <div className="label">Flagged Questions</div>
+          </div>
+        </div>
       </div>
+
+      {/* Topic-Wise Performance Analytics */}
+      {result.topicBreakdown && Object.keys(result.topicBreakdown).length > 0 && (
+        <section className="topic-analytics-section glass-panel">
+          <div className="analytics-header">
+            <h3><BarChart3 className="w-5 h-5 text-purple-600 inline mr-2" /> Topic-Wise Performance Breakdown</h3>
+            <span className="text-muted text-sm">Identify your strengths and areas for improvement</span>
+          </div>
+
+          <div className="topics-progress-grid">
+            {Object.entries(result.topicBreakdown).map(([topic, data]) => (
+              <div key={topic} className="topic-bar-card">
+                <div className="topic-bar-header">
+                  <span className="font-semibold text-sm">{topic}</span>
+                  <span className={`font-bold text-sm ${data.percentage >= 70 ? 'text-emerald-600' : 'text-amber-600'}`}>
+                    {data.correct} / {data.total} ({data.percentage}%)
+                  </span>
+                </div>
+                <div className="topic-progress-bg">
+                  <div
+                    className={`topic-progress-fill ${data.percentage >= 70 ? 'bg-emerald-500' : 'bg-amber-500'}`}
+                    style={{ width: `${data.percentage}%` }}
+                  ></div>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
 
       {/* Filter Tabs & Search Bar */}
       <section className="corrections-section glass-panel">
         <div className="corrections-header">
           <h3>Question Corrections & Solution Explanations</h3>
 
-          <div className="filter-controls">
+          <div className="filter-controls print-hide">
             <div className="search-box">
               <Search className="w-4 h-4 text-muted" />
               <input
@@ -142,6 +193,19 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
                 onChange={e => setSearchQuery(e.target.value)}
               />
             </div>
+
+            {topicsList.length > 0 && (
+              <select
+                className="topic-select-dropdown"
+                value={selectedTopic}
+                onChange={e => setSelectedTopic(e.target.value)}
+              >
+                <option value="all">All Topics ({questions.length})</option>
+                {topicsList.map(t => (
+                  <option key={t} value={t}>{t}</option>
+                ))}
+              </select>
+            )}
 
             <div className="filter-buttons">
               <button
@@ -161,6 +225,12 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
                 onClick={() => setFilter('correct')}
               >
                 Correct ({correctCount})
+              </button>
+              <button
+                className={`filter-btn ${filter === 'flagged' ? 'active' : ''}`}
+                onClick={() => setFilter('flagged')}
+              >
+                Flagged ({flaggedCount})
               </button>
               <button
                 className={`filter-btn ${filter === 'unanswered' ? 'active' : ''}`}
@@ -183,6 +253,7 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
               const userAns = result.userAnswers[q.id];
               const isCorrect = userAns === q.correctAnswer;
               const isUnans = !userAns;
+              const isFlag = result.flaggedQuestions[q.id];
 
               return (
                 <div
@@ -195,6 +266,7 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
                     <div className="left-tags">
                       <span className="q-badge">Q{q.id}</span>
                       <span className="category-tag">{q.category}</span>
+                      {isFlag && <span className="badge badge-pink text-xs">🚩 Flagged</span>}
                     </div>
 
                     <div className="right-status">
@@ -306,7 +378,7 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
 
         .breakdown-grid {
           display: grid;
-          grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+          grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
           gap: 16px;
         }
         .breakdown-card {
@@ -326,6 +398,44 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
           font-weight: 600;
         }
 
+        /* Topic Analytics */
+        .topic-analytics-section {
+          padding: 28px;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+        .topics-progress-grid {
+          display: grid;
+          grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+          gap: 16px;
+        }
+        .topic-bar-card {
+          display: flex;
+          flex-direction: column;
+          gap: 6px;
+          background: var(--card-bg);
+          padding: 12px 16px;
+          border-radius: var(--radius-sm);
+          border: 1px solid var(--card-border);
+        }
+        .topic-bar-header {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+        }
+        .topic-progress-bg {
+          height: 8px;
+          background: rgba(124, 58, 237, 0.1);
+          border-radius: var(--radius-full);
+          overflow: hidden;
+        }
+        .topic-progress-fill {
+          height: 100%;
+          border-radius: var(--radius-full);
+          transition: width 0.4s ease;
+        }
+
         /* Corrections section */
         .corrections-section {
           padding: 32px;
@@ -343,7 +453,7 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
         .filter-controls {
           display: flex;
           align-items: center;
-          gap: 16px;
+          gap: 12px;
           flex-wrap: wrap;
         }
         .search-box {
@@ -362,9 +472,19 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
           color: var(--text-main);
           font-size: 0.9rem;
         }
+        .topic-select-dropdown {
+          padding: 8px 12px;
+          border-radius: var(--radius-md);
+          border: 1px solid var(--card-border);
+          background: var(--card-bg);
+          color: var(--text-main);
+          font-size: 0.85rem;
+          outline: none;
+        }
         .filter-buttons {
           display: flex;
           gap: 6px;
+          flex-wrap: wrap;
         }
         .filter-btn {
           padding: 6px 14px;
@@ -486,6 +606,12 @@ export const ResultsView: React.FC<ResultsViewProps> = ({
           display: flex;
           align-items: center;
           gap: 6px;
+        }
+
+        @media print {
+          .print-hide { display: none !important; }
+          .results-container { padding: 0; }
+          .glass-panel { box-shadow: none; border: 1px solid #ccc; }
         }
       `}</style>
     </div>
